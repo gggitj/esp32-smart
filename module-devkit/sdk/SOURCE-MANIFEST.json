@@ -1,0 +1,1873 @@
+{
+  "format": 1,
+  "files": {
+    "sdk/esp32/components/linkit_sdk/CMakeLists.txt": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/CMakeLists.txt",
+      "sha256": "beed37d2efef752d559b61120e21a843c0ff1e0ab8522fda7e90d10c3b57b6fc"
+    },
+    "sdk/esp32/components/linkit_sdk/include/board_config.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/include/board_config.h",
+      "sha256": "63cfcde0e995b4bf49f6ae6977b9ebaa1519a81b690c6787c2d821fc381e17d3"
+    },
+    "sdk/esp32/components/linkit_sdk/include/linkit.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/include/linkit.h",
+      "sha256": "b81e9d9fad3a012272ebb32fe65480c409743455f6314c1b2ccde5f3a8e0a1cf"
+    },
+    "sdk/esp32/components/linkit_sdk/include/linkit_common.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/include/linkit_common.h",
+      "sha256": "7e771d64242dd1b41c3e08d84d8deba6807aa4a029f1cfbff10314ca83cd899d"
+    },
+    "sdk/esp32/components/linkit_sdk/include/linkit_config.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/include/linkit_config.h",
+      "sha256": "6150a14d2d6e6e284e60cef18f6aec045fc5afa7904358607f0ad02815e7b85f"
+    },
+    "sdk/esp32/components/linkit_sdk/include/linkit_crc16.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/include/linkit_crc16.h",
+      "sha256": "09b725e39c09245b40248b536f96c9614f14f14977738f36fdcaa9ef8fd1984b"
+    },
+    "sdk/esp32/components/linkit_sdk/include/linkit_det.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/include/linkit_det.h",
+      "sha256": "8a91ffbe93d3e427b40a83113b376fc5d24c808874b02b1eabab8e3095a10e62"
+    },
+    "sdk/esp32/components/linkit_sdk/include/linkit_device.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/include/linkit_device.h",
+      "sha256": "4df29ae51feb951bbf51808d87f88b7587e2fc7f07178a96c61aee6755587241"
+    },
+    "sdk/esp32/components/linkit_sdk/include/linkit_err.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/include/linkit_err.h",
+      "sha256": "5fa924b0251349da790fd662cd97705a23b323e636e17be45b27a7cedf3f8ae9"
+    },
+    "sdk/esp32/components/linkit_sdk/include/linkit_frame.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/include/linkit_frame.h",
+      "sha256": "39c4c84faf054e02b40e6e36ab16c3d119855515495baf7109e5f1c20adef1b3"
+    },
+    "sdk/esp32/components/linkit_sdk/include/linkit_handshake.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/include/linkit_handshake.h",
+      "sha256": "066b327c2ae3318921fbc504cd415b1138a25b74720b10915a0189d763d04049"
+    },
+    "sdk/esp32/components/linkit_sdk/include/linkit_host.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/include/linkit_host.h",
+      "sha256": "db88772e0abd9c77af5a058c76962f943e4b21c6b88a72c9351955ba4c42f26a"
+    },
+    "sdk/esp32/components/linkit_sdk/include/linkit_parser.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/include/linkit_parser.h",
+      "sha256": "ef6d4a9966592dfb6b6318ddb5916dfcb2686af4cc1c451f60d43b1e0f8e8016"
+    },
+    "sdk/esp32/components/linkit_sdk/include/linkit_protocol.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/include/linkit_protocol.h",
+      "sha256": "53580fcd9c7037694700b05943596833483b46f7cee4a2bcc47cd8abb245cd08"
+    },
+    "sdk/esp32/components/linkit_sdk/include/linkit_transport.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/include/linkit_transport.h",
+      "sha256": "c90c13c0de85bbf901a70a2c60d31f7d10fe000442d33fd6286e77cb8865b950"
+    },
+    "sdk/esp32/components/linkit_sdk/include/linkit_types.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/include/linkit_types.h",
+      "sha256": "730e43aa014658d3de8cb2b99213339d782e32d87097b74d59b74756765364ec"
+    },
+    "sdk/esp32/components/linkit_sdk/src/core/linkit_config.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/core/linkit_config.c",
+      "sha256": "922f01f75d465cda5c1354464c4751e1b7678e493264ad1f0c8316bb9d1218d4"
+    },
+    "sdk/esp32/components/linkit_sdk/src/core/linkit_core.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/core/linkit_core.c",
+      "sha256": "0926fbc9e2340eb68a7bdb08ccc8daadb057e4e3b94649ac0cc51c5a28ba913b"
+    },
+    "sdk/esp32/components/linkit_sdk/src/core/linkit_core_internal.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/core/linkit_core_internal.h",
+      "sha256": "5047a5d68aa6a0c8c2f71aa6307806f1532cf0318a21f259a7b31dd3f3639410"
+    },
+    "sdk/esp32/components/linkit_sdk/src/core/linkit_crc16.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/core/linkit_crc16.c",
+      "sha256": "cc957545dfff5592374f4f3cabc6c7c01c99632036375dee265cfa8f5f1b1bfa"
+    },
+    "sdk/esp32/components/linkit_sdk/src/core/linkit_frame.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/core/linkit_frame.c",
+      "sha256": "77d7b18fadfb0351e6d090911bcd1abbfdb89ba05cf66ef71b198857abe47d2f"
+    },
+    "sdk/esp32/components/linkit_sdk/src/core/linkit_handshake.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/core/linkit_handshake.c",
+      "sha256": "3edc778460e8352f278570dea349e4f2e9ddd656383f1b6253f87f534e232ffd"
+    },
+    "sdk/esp32/components/linkit_sdk/src/core/linkit_parser.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/core/linkit_parser.c",
+      "sha256": "5c12e8976bedca45865b31a22266e7eee537c68311334f98f8d717afc3fe9ee2"
+    },
+    "sdk/esp32/components/linkit_sdk/src/core/linkit_state.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/core/linkit_state.c",
+      "sha256": "4989defd907bcd3b14316b6ee644d587ce6791b2bbf55601636af22132453be0"
+    },
+    "sdk/esp32/components/linkit_sdk/src/hal/linkit_hal_board.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/hal/linkit_hal_board.c",
+      "sha256": "3690dfb230fa18a56bd2e45611888b497e537d7e360088bbb7e8f2ba8d861138"
+    },
+    "sdk/esp32/components/linkit_sdk/src/hal/linkit_hal_gpio.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/hal/linkit_hal_gpio.c",
+      "sha256": "12e4fd940df28950d15d88e3d074fe6b06bd341767f23c00ea615576f57ebc65"
+    },
+    "sdk/esp32/components/linkit_sdk/src/hal/linkit_hal_time.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/hal/linkit_hal_time.c",
+      "sha256": "c93a9e0ab442487e729d358bd1ffcbb9859b88fd94a102b0570d544ceefe3971"
+    },
+    "sdk/esp32/components/linkit_sdk/src/internal/linkit_hs_internal.h": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/internal/linkit_hs_internal.h",
+      "sha256": "e2d5479c36f9f964a8cdb114410b05198112dec598cc5fd58189c14e3354572e"
+    },
+    "sdk/esp32/components/linkit_sdk/src/roles/linkit_role_device.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/roles/linkit_role_device.c",
+      "sha256": "e24a07211f6104722003f28b9e10a237e128d2178dc1b9644fccd9ceadd4f815"
+    },
+    "sdk/esp32/components/linkit_sdk/src/roles/linkit_role_host.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/roles/linkit_role_host.c",
+      "sha256": "5644090ebb080ac4d4ceaae013b9228ab259c23504394afa5f60f7d3a8670708"
+    },
+    "sdk/esp32/components/linkit_sdk/src/transport/linkit_transport_espnow.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/transport/linkit_transport_espnow.c",
+      "sha256": "65afa569259015ce243d688533cc2ebf99c3979de58a68bd4a38e49ca32a8233"
+    },
+    "sdk/esp32/components/linkit_sdk/src/transport/linkit_transport_i2c.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/transport/linkit_transport_i2c.c",
+      "sha256": "09e13b5f45dbe7f3c7b1566e4dee631733a1079c65af7e384a1d6a2176e23963"
+    },
+    "sdk/esp32/components/linkit_sdk/src/transport/linkit_transport_spi.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/transport/linkit_transport_spi.c",
+      "sha256": "0bc870963e631d0140d1b23451731c0aa20f9dbf30f342d45a00d693655137f0"
+    },
+    "sdk/esp32/components/linkit_sdk/src/transport/linkit_transport_uart.c": {
+      "source": "esp/S3_Pi_Module/components/linkit_sdk/src/transport/linkit_transport_uart.c",
+      "sha256": "e6beb76925300239768edba8522453cf8e3d27078a2338c08f50f48fdb875a8e"
+    },
+    "sdk/esp32/components/board_pins/CMakeLists.txt": {
+      "source": "esp/S3_Pi_Module/components/board_pins/CMakeLists.txt",
+      "sha256": "5f07202119a1b08a7d67df1839138db5217338ecc83ab16093ee7965372a1562"
+    },
+    "sdk/esp32/components/board_pins/include/board_pins.h": {
+      "source": "esp/S3_Pi_Module/components/board_pins/include/board_pins.h",
+      "sha256": "5ceec73e976231329016d2b0ba712097f6f0d47d0a2f304db4f502cbd83e1126"
+    },
+    "sdk/esp32/components/board_pins/include/linkit_pins.h": {
+      "source": "esp/S3_Pi_Module/components/board_pins/include/linkit_pins.h",
+      "sha256": "c17f5ef8d91ab477e9ad36db70b1d42ef03224cffbda1c018cbedad7458362cf"
+    },
+    "sdk/esp32/components/diagnostics/CMakeLists.txt": {
+      "source": "esp/S3_Pi_Module/components/diagnostics/CMakeLists.txt",
+      "sha256": "d14fff080ea4fa6b61ab8c79adfb950c81827946596b28c72ebbb23edaef0a4f"
+    },
+    "sdk/esp32/components/diagnostics/diagnostics.c": {
+      "source": "esp/S3_Pi_Module/components/diagnostics/diagnostics.c",
+      "sha256": "9bd90d408f48ace6ff8900007c1c06acb2e26f665c59d250c2baa1780d789427"
+    },
+    "sdk/esp32/components/diagnostics/include/diagnostics.h": {
+      "source": "esp/S3_Pi_Module/components/diagnostics/include/diagnostics.h",
+      "sha256": "715d3f3734c867ef90bfe0f5405b06c25ee2c563891c08316b6a1b0fa7632a9a"
+    },
+    "sdk/esp32/components/module_data_service/CMakeLists.txt": {
+      "source": "esp/shared/module_data_service/CMakeLists.txt",
+      "sha256": "a802858c51bfb8eaea5c3e5dd5f77533f51767a24ef580167ec185d88ef7fbde"
+    },
+    "sdk/esp32/components/module_data_service/include/module_data_ble.h": {
+      "source": "esp/shared/module_data_service/include/module_data_ble.h",
+      "sha256": "0dc7d703da4faec7c6359f180e7e4b3684e6dfddd305d85374eb1113e4815c15"
+    },
+    "sdk/esp32/components/module_data_service/include/module_data_ble_gatt.h": {
+      "source": "esp/shared/module_data_service/include/module_data_ble_gatt.h",
+      "sha256": "e15cf1935e6aa5b2e3c1784d8adda688352efdd213cde6ae833291fbf2b117d8"
+    },
+    "sdk/esp32/components/module_data_service/include/module_data_service.h": {
+      "source": "esp/shared/module_data_service/include/module_data_service.h",
+      "sha256": "d21b009be80da6dd00947db94edb4dff697761cbf07c67ab9f6291db42a78dee"
+    },
+    "sdk/esp32/components/module_data_service/module_data_ble.c": {
+      "source": "esp/shared/module_data_service/module_data_ble.c",
+      "sha256": "4fb26598065b0beedf143c460bf8e94ce18b030e8d07039f4f2ee787bd86a125"
+    },
+    "sdk/esp32/components/module_data_service/module_data_ble_gatt.c": {
+      "source": "esp/shared/module_data_service/module_data_ble_gatt.c",
+      "sha256": "c97966f18706ef4f76c476004dd731bc4b63a1476c960303175936350d826348"
+    },
+    "sdk/esp32/components/module_data_service/module_data_http_package.c": {
+      "source": "esp/shared/module_data_service/module_data_http_package.c",
+      "sha256": "4d5c13a55b4a11daebe3cff3554013a41111f43230f6bcfa49cf2e709c1521d7"
+    },
+    "sdk/esp32/components/module_data_service/module_data_package.c": {
+      "source": "esp/shared/module_data_service/module_data_package.c",
+      "sha256": "3f3384d5f699857ef538fefb81bf54f24827fb2cf8c4c881eb3fd590d01834ad"
+    },
+    "sdk/esp32/components/module_data_service/module_data_service.c": {
+      "source": "esp/shared/module_data_service/module_data_service.c",
+      "sha256": "2188e20d634b5d6f6b9a6a4bffd12fcb9954d91b7c12a288db837dd129461696"
+    },
+    "sdk/esp32/components/module_data_service/module_data_wifi.c": {
+      "source": "esp/shared/module_data_service/module_data_wifi.c",
+      "sha256": "d9215073d583fd03d17b6982ee7dc59181872c85fbf25257a5ddb0a1c26c85f1"
+    },
+    "sdk/esp32/components/module_control_service/CMakeLists.txt": {
+      "source": "esp/shared/module_control_service/CMakeLists.txt",
+      "sha256": "9af9f898f1da702154b88a45dfe496398095d24b6513332e742e3598e59f85c9"
+    },
+    "sdk/esp32/components/module_control_service/include/module_control_service.h": {
+      "source": "esp/shared/module_control_service/include/module_control_service.h",
+      "sha256": "27eb0b0cb6b86b880a786e3496f5e4772fd3973d52afeebf8e73b86519706588"
+    },
+    "sdk/esp32/components/module_control_service/module_control_service.c": {
+      "source": "esp/shared/module_control_service/module_control_service.c",
+      "sha256": "ab1ac1ced568c2d30a430e72263a9217adf72830eba94d4fb34d75f50f0f8b55"
+    },
+    "examples/smart-planter/firmware/components/lcd_st7789/CMakeLists.txt": {
+      "source": "esp/S3_Pi_Module/components/lcd_st7789/CMakeLists.txt",
+      "sha256": "9106a33b98a3544d9c14918f82746eaaf90c31ddda2080296ad9553cf70e9cf9"
+    },
+    "examples/smart-planter/firmware/components/lcd_st7789/include/lcd_rgb565.h": {
+      "source": "esp/S3_Pi_Module/components/lcd_st7789/include/lcd_rgb565.h",
+      "sha256": "0493916db119a8586a570058fe5d63a4b95263aa495ad92fd125fc3e6ec55381"
+    },
+    "examples/smart-planter/firmware/components/lcd_st7789/include/lcd_st7789.h": {
+      "source": "esp/S3_Pi_Module/components/lcd_st7789/include/lcd_st7789.h",
+      "sha256": "11cced73da22cffe9fcb55b64d822a1092e99e9a727988dc3f5051c4f9c28bae"
+    },
+    "examples/smart-planter/firmware/components/lcd_st7789/lcd_st7789.c": {
+      "source": "esp/S3_Pi_Module/components/lcd_st7789/lcd_st7789.c",
+      "sha256": "163fd9cb67e370917a3e8027c2c8dc7af04ab96efb8d0966482cb016fb96111a"
+    },
+    "examples/smart-planter/firmware/components/ui_env/CMakeLists.txt": {
+      "source": "esp/S3_Pi_Module/components/ui_env/CMakeLists.txt",
+      "sha256": "981da3b3b59d6b4fda7d9734283ff2ea6a473a3a6d32bf3edb8409dea3ad1ee3"
+    },
+    "examples/smart-planter/firmware/components/ui_env/LCD-DESIGN.md": {
+      "source": "esp/S3_Pi_Module/components/ui_env/LCD-DESIGN.md",
+      "sha256": "d36f6529b4c36402fd7c3c539e5348ef9bbc407bc7478b54f7e6d1aad07f6828"
+    },
+    "examples/smart-planter/firmware/components/ui_env/fonts/Noto-CJK-COPYRIGHT.txt": {
+      "source": "esp/S3_Pi_Module/components/ui_env/fonts/Noto-CJK-COPYRIGHT.txt",
+      "sha256": "5bb218343ded506b258d86186d460fc47d9b6b28f0e642cf32676c396b7df763"
+    },
+    "examples/smart-planter/firmware/components/ui_env/fonts/README.md": {
+      "source": "esp/S3_Pi_Module/components/ui_env/fonts/README.md",
+      "sha256": "d431707862fd66092a7d04229b7989834d73410843624ee736356bb15df574a2"
+    },
+    "examples/smart-planter/firmware/components/ui_env/fonts/Roboto-LICENSE.txt": {
+      "source": "esp/S3_Pi_Module/components/ui_env/fonts/Roboto-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "examples/smart-planter/firmware/components/ui_env/fonts/SOURCE.json": {
+      "source": "esp/S3_Pi_Module/components/ui_env/fonts/SOURCE.json",
+      "sha256": "840c7ed79086f80273e884c78bb777cf2f7d841d2a3f7c7243cb99667db5647d"
+    },
+    "examples/smart-planter/firmware/components/ui_env/fonts/plant_roboto_24.c": {
+      "source": "esp/S3_Pi_Module/components/ui_env/fonts/plant_roboto_24.c",
+      "sha256": "34550cd1ebb664d40739b46e5a851970f5b7eb878c79a8435c0cbd7609851250"
+    },
+    "examples/smart-planter/firmware/components/ui_env/fonts/plant_roboto_36.c": {
+      "source": "esp/S3_Pi_Module/components/ui_env/fonts/plant_roboto_36.c",
+      "sha256": "3040def1af3ffa555677cbd90223c26152abd2ae68e042c9aaaa9b92d39ef098"
+    },
+    "examples/smart-planter/firmware/components/ui_env/fonts/plant_zh_12.c": {
+      "source": "esp/S3_Pi_Module/components/ui_env/fonts/plant_zh_12.c",
+      "sha256": "187b7bf6e98d5758129d61a66e6629edd5c2e000160e9925178866495f644ae1"
+    },
+    "examples/smart-planter/firmware/components/ui_env/fonts/plant_zh_14.c": {
+      "source": "esp/S3_Pi_Module/components/ui_env/fonts/plant_zh_14.c",
+      "sha256": "f77ea9008c79fc5e0ce85844ae57e3a9601a0a6dc2b888d0f70df58406bf408d"
+    },
+    "examples/smart-planter/firmware/components/ui_env/include/ui_env.h": {
+      "source": "esp/S3_Pi_Module/components/ui_env/include/ui_env.h",
+      "sha256": "1cb82b951825299abd67909926296a7c4fc184e0e07491676fec725c42411aa0"
+    },
+    "examples/smart-planter/firmware/components/ui_env/include/ui_env_view.h": {
+      "source": "esp/S3_Pi_Module/components/ui_env/include/ui_env_view.h",
+      "sha256": "adbfd7c7f240b3d87afc3a79693b64c643ec70a9c62b06e634f9be28a7ef4372"
+    },
+    "examples/smart-planter/firmware/components/ui_env/tests/CMakeLists.txt": {
+      "source": "esp/S3_Pi_Module/components/ui_env/tests/CMakeLists.txt",
+      "sha256": "d5ef0edad864c1a9d2e00fc4dce3bf9beec1c70a36f742226821e1f0f8080adc"
+    },
+    "examples/smart-planter/firmware/components/ui_env/tests/lcd_view_test.c": {
+      "source": "esp/S3_Pi_Module/components/ui_env/tests/lcd_view_test.c",
+      "sha256": "3afcbdc5bd50bfd6cddd360ea63cc59db895265c56f5bb3c62f978a05895426c"
+    },
+    "examples/smart-planter/firmware/components/ui_env/ui_env.c": {
+      "source": "esp/S3_Pi_Module/components/ui_env/ui_env.c",
+      "sha256": "36da2c1cff53c2769b6f81dd122e40558108af990abb5b7e6a0fc84f88339187"
+    },
+    "examples/smart-planter/firmware/components/ui_env/ui_env_view.c": {
+      "source": "esp/S3_Pi_Module/components/ui_env/ui_env_view.c",
+      "sha256": "e325b08a941fba33d2275dd9e8912a7f56a42f87b5c9b323d78713d841e24e39"
+    },
+    "examples/smart-planter/firmware/components/power_guard/CMakeLists.txt": {
+      "source": "esp/S3_Pi_Module/components/power_guard/CMakeLists.txt",
+      "sha256": "60b7ec1ec64e4158994ffbdc15b8ce269baef875079218a9e75a356a86a777c3"
+    },
+    "examples/smart-planter/firmware/components/power_guard/include/power_guard.h": {
+      "source": "esp/S3_Pi_Module/components/power_guard/include/power_guard.h",
+      "sha256": "8189496615642a4492dbca116ee77168a0addda4a460ce8883060371819a80ee"
+    },
+    "examples/smart-planter/firmware/components/power_guard/include/power_policy.h": {
+      "source": "esp/S3_Pi_Module/components/power_guard/include/power_policy.h",
+      "sha256": "fcba7634fdb55805a79162fcadc24a4e790f9c54235cf2794eb774e9a39c5acc"
+    },
+    "examples/smart-planter/firmware/components/power_guard/power_guard.c": {
+      "source": "esp/S3_Pi_Module/components/power_guard/power_guard.c",
+      "sha256": "5416168ae374d724876b13c2186a149dd1ab03cb6721581524bb642bf3fe8dc7"
+    },
+    "examples/smart-planter/firmware/components/pi_sensor_device/CMakeLists.txt": {
+      "source": "esp/shared/pi_sensor_device/CMakeLists.txt",
+      "sha256": "bcf60b8f8515b3d5453b3784bb71bc101b1d2e84f217a26d61119f0d58ac95bb"
+    },
+    "examples/smart-planter/firmware/components/pi_sensor_device/include/pi_sensor_device.h": {
+      "source": "esp/shared/pi_sensor_device/include/pi_sensor_device.h",
+      "sha256": "28fe5fb7e3d9414a1fa409144bd672117f122d55aa1ff6b7226042ac83a5afad"
+    },
+    "examples/smart-planter/firmware/components/pi_sensor_device/pi_sensor_device.c": {
+      "source": "esp/shared/pi_sensor_device/pi_sensor_device.c",
+      "sha256": "f41eabd1b3fedfe8f8ae0b734ffe9472735aa41322bf535a40cba091a816c873"
+    },
+    "examples/smart-planter/firmware/components/lvgl/CMakeLists.txt": {
+      "source": "esp/shared/lvgl/CMakeLists.txt",
+      "sha256": "bb6fa852e257f1d87bf769ba3b4df46c1fa7caa5255b364a5d84d40eb34228de"
+    },
+    "examples/smart-planter/firmware/components/lvgl/Kconfig": {
+      "source": "esp/shared/lvgl/Kconfig",
+      "sha256": "9ee8b9da9d715833b181ba35a0e0f62cbd553872f7cee0302e2c4a116e2897e0"
+    },
+    "examples/smart-planter/firmware/components/lvgl/LICENCE.txt": {
+      "source": "esp/shared/lvgl/LICENCE.txt",
+      "sha256": "6a916130a36e83a79bb0dca6c6a7bfe60a67af7d118605e2b7b23bd5ad5c4eb0"
+    },
+    "examples/smart-planter/firmware/components/lvgl/lv_conf_template.h": {
+      "source": "esp/shared/lvgl/lv_conf_template.h",
+      "sha256": "ed13697d85cf73271b75d2230eb572a345cf81d1dd7596333ed0da2f2d90cb9d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/lvgl.h": {
+      "source": "esp/shared/lvgl/lvgl.h",
+      "sha256": "2f5c32f44c5489de31316ae76d4e0baaf3235fd8c72aa190683ec06086b17cdf"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_core.mk": {
+      "source": "esp/shared/lvgl/src/core/lv_core.mk",
+      "sha256": "4e484856a86a70f8cf62c61e5c2b94cf97f5a1296e23466b5fa227a495270674"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_disp.c": {
+      "source": "esp/shared/lvgl/src/core/lv_disp.c",
+      "sha256": "d5c483fc8f2aa9d6c24605536b3b47e28e7a46fb5fb62acb7ee34086043c37a9"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_disp.h": {
+      "source": "esp/shared/lvgl/src/core/lv_disp.h",
+      "sha256": "4cdf3acd468375d0f1f918b2a3d50cb820265655ed7ef67ffa066c3dfd778e31"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_event.c": {
+      "source": "esp/shared/lvgl/src/core/lv_event.c",
+      "sha256": "ff8f0e0c00b52a1c5ed2072ae4c2ad28e5205a65cc862483e4dcf2d1eb940281"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_event.h": {
+      "source": "esp/shared/lvgl/src/core/lv_event.h",
+      "sha256": "4b6fa24501c88775d87b0059388d5a7079b8c688ea5c060e6227d856557cb35e"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_group.c": {
+      "source": "esp/shared/lvgl/src/core/lv_group.c",
+      "sha256": "1430050436845151ba74461a31d558552d9faf89489d8aec6c203d2b53d66d98"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_group.h": {
+      "source": "esp/shared/lvgl/src/core/lv_group.h",
+      "sha256": "67e462c4b4a34d18c3c6d131cabea492b5f5e0951f0d0dcb0008fbf5d9209e3d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_indev.c": {
+      "source": "esp/shared/lvgl/src/core/lv_indev.c",
+      "sha256": "ce2d4915b4e478c02a6f86474e4a241056128f674c60edfd1d40ad5e7fd1b599"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_indev.h": {
+      "source": "esp/shared/lvgl/src/core/lv_indev.h",
+      "sha256": "10aac9ffdf5105b8e699f2e6e4edc604fd176409a52a499377adc85e5e6f3382"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_indev_scroll.c": {
+      "source": "esp/shared/lvgl/src/core/lv_indev_scroll.c",
+      "sha256": "9049e1052033bdd7af7060abab88ff571ed258af2d0b6a0378babca8d251a564"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_indev_scroll.h": {
+      "source": "esp/shared/lvgl/src/core/lv_indev_scroll.h",
+      "sha256": "3b552db89aeeed85dd2cbdaafcc66f040459063465f07dad745f9fb89aba861f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj.c": {
+      "source": "esp/shared/lvgl/src/core/lv_obj.c",
+      "sha256": "66982a18428ccb7c28d523d144f128d289935e748e6f27a1d1f26df1928c93a6"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj.h": {
+      "source": "esp/shared/lvgl/src/core/lv_obj.h",
+      "sha256": "f12f8d145954cea44cdf9290537c9b0231cbecce56c28f93902000f535d293d3"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj_class.c": {
+      "source": "esp/shared/lvgl/src/core/lv_obj_class.c",
+      "sha256": "f56368d1f291d78871eee167f1ee1900ab2882693de09ee3f50caafaeedf1f77"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj_class.h": {
+      "source": "esp/shared/lvgl/src/core/lv_obj_class.h",
+      "sha256": "d14c97e15012cc6207c66129691694d1a4d7b340d9c3a0995067f25da20c499d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj_draw.c": {
+      "source": "esp/shared/lvgl/src/core/lv_obj_draw.c",
+      "sha256": "025c755e75cbf3b4968b9b4687d96cdf9d99de0336883dbf20f238ad144524cf"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj_draw.h": {
+      "source": "esp/shared/lvgl/src/core/lv_obj_draw.h",
+      "sha256": "fd1d2b69c6b2f1f5dbd4c9f0eda32ff4f49dfb484051ba3607b8f5aee6212ea0"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj_pos.c": {
+      "source": "esp/shared/lvgl/src/core/lv_obj_pos.c",
+      "sha256": "b2bf1a8eecf90a699b6acc05a8e7c1a7ffa94a81c67f5867a3b62df9d662a82c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj_pos.h": {
+      "source": "esp/shared/lvgl/src/core/lv_obj_pos.h",
+      "sha256": "36ffacbe4964e64653949b0c784c19d408cbb46274bb4859472a688b80a8375e"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj_scroll.c": {
+      "source": "esp/shared/lvgl/src/core/lv_obj_scroll.c",
+      "sha256": "cc8df0c68da3f19774bcb6e9e180c0dc1261062d7b04b37c43950d4c7914b341"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj_scroll.h": {
+      "source": "esp/shared/lvgl/src/core/lv_obj_scroll.h",
+      "sha256": "bd04014c236f1495d59a73cb6855bd5a8ea0ec5b2a883f32e3191fb70938af74"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj_style.c": {
+      "source": "esp/shared/lvgl/src/core/lv_obj_style.c",
+      "sha256": "2ad29ac7530ebda0d5802c89cbafd3ea08ab68788badf197c92e615c8197caf7"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj_style.h": {
+      "source": "esp/shared/lvgl/src/core/lv_obj_style.h",
+      "sha256": "18cdac04310609259d84b9e6b5fef78872897f0bfa323c7ac0fa25733ed5dddc"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj_style_gen.c": {
+      "source": "esp/shared/lvgl/src/core/lv_obj_style_gen.c",
+      "sha256": "8ddda9268506e10d2b2436cb53b66455ee54132679f063511f056a3993dccc49"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj_style_gen.h": {
+      "source": "esp/shared/lvgl/src/core/lv_obj_style_gen.h",
+      "sha256": "9317c91f8072eef12b10c2383148ca108667d83a4ee6f98d37dedc8216e9dc64"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj_tree.c": {
+      "source": "esp/shared/lvgl/src/core/lv_obj_tree.c",
+      "sha256": "eaac6b4fccc9c477d237b18d8b01103e69371ffdefab9d2685de539418a75d6e"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_obj_tree.h": {
+      "source": "esp/shared/lvgl/src/core/lv_obj_tree.h",
+      "sha256": "d841965e5093493189895dfc0f0682f0d2d6e40905a7204c9bb9dc14b7177501"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_refr.c": {
+      "source": "esp/shared/lvgl/src/core/lv_refr.c",
+      "sha256": "6aca7ff57a634d5a220465feccee749dd22890c3f2d9748b6f690c4b6105eb70"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_refr.h": {
+      "source": "esp/shared/lvgl/src/core/lv_refr.h",
+      "sha256": "e5bce21ae5175f5c2ed622039aac59a594531878b28be17381f55d535079eebd"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_theme.c": {
+      "source": "esp/shared/lvgl/src/core/lv_theme.c",
+      "sha256": "90877775a9f5f6d3eaf65fba6b75e0c18628e952dfc00c3e79ebaf6526ce4983"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/core/lv_theme.h": {
+      "source": "esp/shared/lvgl/src/core/lv_theme.h",
+      "sha256": "951f83d283f01c6f4c2bf1cf6f2aa30f16c068d63dcf5aee5b6c93cb5903764a"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/arm2d/lv_draw_arm2d.mk": {
+      "source": "esp/shared/lvgl/src/draw/arm2d/lv_draw_arm2d.mk",
+      "sha256": "7c5ab95a37ecfbaca3587ea7b3d85bb52656889350eabc9fc689de5c868f08f2"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/arm2d/lv_gpu_arm2d.c": {
+      "source": "esp/shared/lvgl/src/draw/arm2d/lv_gpu_arm2d.c",
+      "sha256": "00aa99f0ac8c72b3a2e870c0d43d546ef65038c6e6bcd07c1475250ef3321cd8"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/arm2d/lv_gpu_arm2d.h": {
+      "source": "esp/shared/lvgl/src/draw/arm2d/lv_gpu_arm2d.h",
+      "sha256": "1917c286c862969f7d7f9e0542e2374b6584997d419af37e6ce15b90b0a12b00"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw.c": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw.c",
+      "sha256": "b61110a739d1cb98aaa78cb414cece155880c22c79f95ae8810d10420ffeb7f0"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw.h": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw.h",
+      "sha256": "cffe5d995da15c5c781c2d50ababaf1e5bad7f2d86fe76755eab4838ee0212bd"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw.mk": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw.mk",
+      "sha256": "97094df8a8d22a6bab92827269eb5fb149be99b9fb9d9d919961e2102729f78c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_arc.c": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_arc.c",
+      "sha256": "112e6f8081cb993fc1dfa505de08b00e802f12e0c3bdd04ac382af14ffbf31ce"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_arc.h": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_arc.h",
+      "sha256": "95fd2ed8a5c143e5691de5ad92928ea3fce6ee229fcdd298b140bbddcd7c9c7d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_img.c": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_img.c",
+      "sha256": "dd7bd04aa2dd18ec6db7da2785d59acba0a0e3839b4ab0c23150321b21db95d1"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_img.h": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_img.h",
+      "sha256": "cbd715a3b5ed97963800348db214e0797035e1ca3616d0bbd679eef2ce49ef25"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_label.c": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_label.c",
+      "sha256": "94a36626981552d2984603c56efb35711e8115700a77abadd3debd32c3da1c29"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_label.h": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_label.h",
+      "sha256": "0349692fc5035bda6ec893e8820b6c2792a0cf34d05dc61ff361f1c1de7c3c9a"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_layer.c": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_layer.c",
+      "sha256": "3cc437da7f49dd716f3ca6ef8d2d9e692bd470a41b0679a1cd6f75af42e0adbf"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_layer.h": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_layer.h",
+      "sha256": "bbc802d79ff87752b7548b05b82b8c4b77ad1797459baac4c965731bb0881b8c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_line.c": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_line.c",
+      "sha256": "0555f0036c21e63a2c1d30d680292d0b4cfe3a560c8d2dc71185ee33cf60addf"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_line.h": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_line.h",
+      "sha256": "1186475d9f56f9b1bb85e07d0721c5687381ca421c4535074926bf2f26527f0c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_mask.c": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_mask.c",
+      "sha256": "2a7d6bd1d9031d9f376d892dcfce8ec07cfbcb1c88b85d4d4347ec7f1ffc2763"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_mask.h": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_mask.h",
+      "sha256": "fd13b3294d6a4acb418d890457c3748cd3acc9a753368cf9508087e89a7236ec"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_rect.c": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_rect.c",
+      "sha256": "6bcb01c108b62424ad50fbcb8d8630050f03941b76a5f0b75b2e72d8d7181c66"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_rect.h": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_rect.h",
+      "sha256": "64fa7b1166bd152afb2c98e379296960fbda5f07e234c35f49dcfedb4cc2fb10"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_transform.c": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_transform.c",
+      "sha256": "99d3e56030bdb0cad705b9ce8e2f668ab2b5d0346e5e69056796794e099eb9ea"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_transform.h": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_transform.h",
+      "sha256": "a2b61654d8f6ce4916317cd11689fdfcb726d632625eca4d87de008f9a8ebf07"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_triangle.c": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_triangle.c",
+      "sha256": "526b6c8a3ed0f16aa6169fbc8e34697e1f7670b553dfa4cdf89eaff6321991b8"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_draw_triangle.h": {
+      "source": "esp/shared/lvgl/src/draw/lv_draw_triangle.h",
+      "sha256": "8b15091f30b4ea62220dd08a60487a1ce688cd58573a51d07a353192f75cbe7c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_img_buf.c": {
+      "source": "esp/shared/lvgl/src/draw/lv_img_buf.c",
+      "sha256": "bc4cab4c289d97bf578ac7aaf7ecb0a84d08bcdcf80a8a1327b5a0ef1e287c78"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_img_buf.h": {
+      "source": "esp/shared/lvgl/src/draw/lv_img_buf.h",
+      "sha256": "70118b2b271e42c28aa1892fc3dcafb08ab7644b2440f44f56ba24aede0cd696"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_img_cache.c": {
+      "source": "esp/shared/lvgl/src/draw/lv_img_cache.c",
+      "sha256": "da4c953ba6433401ba12f4518cb91cdac27ab8e76df03595f0a2d7a0a116f5e6"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_img_cache.h": {
+      "source": "esp/shared/lvgl/src/draw/lv_img_cache.h",
+      "sha256": "62a6f7c9ca83e9150b9395f6e2a8462ba1fd82f4918f7b1eafe4e0f09bc28601"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_img_decoder.c": {
+      "source": "esp/shared/lvgl/src/draw/lv_img_decoder.c",
+      "sha256": "087629fcae9af0daf03047f409898758fae38042f2f0334843339fd9056443ff"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/lv_img_decoder.h": {
+      "source": "esp/shared/lvgl/src/draw/lv_img_decoder.h",
+      "sha256": "5cb254981e3ca3d2fa124fd36a7d08d7381bb492b3b8e0be9d9455e2f2b68ee5"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/lv_draw_nxp.mk": {
+      "source": "esp/shared/lvgl/src/draw/nxp/lv_draw_nxp.mk",
+      "sha256": "824549fdabaad7c63dcceb97d10d4e3b8e19dc657d5cf64810e34f0bec93c9bf"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/pxp/lv_draw_nxp_pxp.mk": {
+      "source": "esp/shared/lvgl/src/draw/nxp/pxp/lv_draw_nxp_pxp.mk",
+      "sha256": "e06b6830dec86dfec06f99fd2bceb5cfbb82fb489d34e89b0a047d02b9a0d3d0"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c": {
+      "source": "esp/shared/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c",
+      "sha256": "eb418004e1247b21b29e535897ccf70eb027fb5d001d40b3a7931c626a8c5538"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/pxp/lv_draw_pxp.h": {
+      "source": "esp/shared/lvgl/src/draw/nxp/pxp/lv_draw_pxp.h",
+      "sha256": "caef182d78db2f3219197d386c33e9ce410ce0bf4a2c8f9d2447f178c76520c0"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c": {
+      "source": "esp/shared/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c",
+      "sha256": "bbafb88bfbf4730cb35fd833a8598b8fd8db03efe2621ce199fda9ac7d8df87d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.h": {
+      "source": "esp/shared/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.h",
+      "sha256": "bde413bd13f5ffb9e3ff226e1b87f1e574b252bab9056dab215b599c2706b87c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c": {
+      "source": "esp/shared/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c",
+      "sha256": "157ed890201853ddbde8d611280293ed5d5f2b16010e8f728349e4750eb706cd"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.h": {
+      "source": "esp/shared/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.h",
+      "sha256": "1d638aa07ab4dca33a8bfd0bdf7fbbd843174944a5349389a9b91d9a7a93c04c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c": {
+      "source": "esp/shared/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c",
+      "sha256": "d953b008bd2bc9d3088e15a8c6c72ade7a7d2e5beeb3f67161c3db4556dafdce"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.h": {
+      "source": "esp/shared/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.h",
+      "sha256": "d493a8215852cc899ca7fbf26d0e4fc1384fa35d2eff9ac85713677d2c7bafe9"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/vglite/lv_draw_nxp_vglite.mk": {
+      "source": "esp/shared/lvgl/src/draw/nxp/vglite/lv_draw_nxp_vglite.mk",
+      "sha256": "589f252d5dd2b8e97b10195270ebe81da7d3b039b5bde660207ef6bceb29bc5f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c": {
+      "source": "esp/shared/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c",
+      "sha256": "c26ecfef1105ccf03eb9f69557455468377389ada90359bdc90836170bbddec5"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite.h": {
+      "source": "esp/shared/lvgl/src/draw/nxp/vglite/lv_draw_vglite.h",
+      "sha256": "fde2d0e0f7e83018cbe07e61a348864a32a65bd23d701740ef641a40b841168e"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c": {
+      "source": "esp/shared/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c",
+      "sha256": "5c14bc721d48a5675548d7981064015a27ac0e641c1d0cdbd2a303b567bb9cb9"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.h": {
+      "source": "esp/shared/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.h",
+      "sha256": "6ffea805e831e8b31dcca753b88f95849ac2e18c9e0079144e34cfc9de45bd4e"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c": {
+      "source": "esp/shared/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c",
+      "sha256": "9a21a3ddf42a58798b606983ca4382b5cd864b22be19193134ca109738556781"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.h": {
+      "source": "esp/shared/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.h",
+      "sha256": "8757114959fef3c6c47962d889ba69659c51f2ea7ca509109ba0e2fb1d73bd72"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c": {
+      "source": "esp/shared/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c",
+      "sha256": "9c82647d4ee5557bcb45dac96ea3e193dfdde28700dfe222a47566869f171f62"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.h": {
+      "source": "esp/shared/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.h",
+      "sha256": "c6c3f43efd17f8c00d9350af0eb78eaba16a5034b8b9e9ea3d2691c370616393"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c": {
+      "source": "esp/shared/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c",
+      "sha256": "2084afc5008e8821dcd8b328716b4975525e0fb5d88256cbb6258f6398f74723"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.h": {
+      "source": "esp/shared/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.h",
+      "sha256": "70ec9222e213e6c3303d8a456d59f52bac127f961edf671a4f673616ab188c98"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c": {
+      "source": "esp/shared/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c",
+      "sha256": "a172ea6652490c7d4cd8500c8f224b0e09dbc0ee8594d9cd4ad25dbd584f179b"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/vglite/lv_vglite_buf.h": {
+      "source": "esp/shared/lvgl/src/draw/nxp/vglite/lv_vglite_buf.h",
+      "sha256": "fc86e0009a477ba7af173c2ee5655bc2214930beb6adc35b29db392b1fd12281"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c": {
+      "source": "esp/shared/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c",
+      "sha256": "0415846f33045d96bb1bb7346a9ac3c35370642483eaf1d98c32651a94a254d2"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/nxp/vglite/lv_vglite_utils.h": {
+      "source": "esp/shared/lvgl/src/draw/nxp/vglite/lv_vglite_utils.h",
+      "sha256": "3292494ace7eed0078453d1784aa4db32eedc59bc4c85007695b0e35bf97cb4e"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/renesas/lv_draw_renesas.mk": {
+      "source": "esp/shared/lvgl/src/draw/renesas/lv_draw_renesas.mk",
+      "sha256": "988d3dcc8b0391514bf4c60d3bd6d3e46df0b00d86c6ab330463e83c523bdfbd"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c": {
+      "source": "esp/shared/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c",
+      "sha256": "e478b9326ce307778215d4846135e2a1201249da1e1d5a9ed3ff537c6ef46073"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c": {
+      "source": "esp/shared/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c",
+      "sha256": "33c4a74e2698cfd1fc82e2517320a989d997645a2f03090fa4ef451cd8d28d66"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.h": {
+      "source": "esp/shared/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.h",
+      "sha256": "ccde417f7ec80b19029b4e86708fda5a1f6ebd4c68a86bfb175f8fe52e88a963"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/README.md": {
+      "source": "esp/shared/lvgl/src/draw/sdl/README.md",
+      "sha256": "6c93e541d5ebebf572ae9c5098d53a84573b84393e583b2096d391d6311da2f5"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl.c": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl.c",
+      "sha256": "868dca86beedeb61fe25f21b4dac90eab2feac5be54e9b5285c9ef502672e137"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl.h": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl.h",
+      "sha256": "7a372da1a04629aeb9ff1a2c58a828c20929ba50290820d9568c7c4264ee12d3"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl.mk": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl.mk",
+      "sha256": "f67fdd79df2e2af986b0fcfb207b56bd4f0028c7fc9a6d2063cd2559548ab764"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_arc.c": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_arc.c",
+      "sha256": "1b533f86776315e3ae814051d60ada4b11f6a625a04a9bf9efe2b6e588bedc9c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_bg.c": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_bg.c",
+      "sha256": "7c209e0e25ee7b9dc9c9b4b15dc7c9ffc6e1b5140b07dd6791c48fc654d65233"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_composite.c": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_composite.c",
+      "sha256": "4b33ec3af09371d7283f226fbce6bd4b3f94b77822f867d73256ba1d93731b0a"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_composite.h": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_composite.h",
+      "sha256": "e9d1b425008fddadbcf22bf2def52be1a1a87eaae4ce4651ed88ea3d831997e3"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_img.c": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_img.c",
+      "sha256": "136c67d5164418f7270730497922177961306d741e2bed94b6da315f959a9f12"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_img.h": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_img.h",
+      "sha256": "a13e28b8151ae2d0db109cd2f963d8ae9aa6b5dd6c88ea4ff91bc398115b55b1"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_label.c": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_label.c",
+      "sha256": "611258da6bc7cc02fc54ce104bb30e6b7a92fd847b6d191d547f84d72e503537"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_layer.c": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_layer.c",
+      "sha256": "2500563005524688a233a017ab6ddb33f564dcd5e24ea0d226fb6170afd3907d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_layer.h": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_layer.h",
+      "sha256": "7f3bd4fe6ed337bbec597d771579d792bd1740d14b28cdd2a5067825e3ae2a6c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_line.c": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_line.c",
+      "sha256": "3a3855045b758b717cfaf6578a26dc365ab45edfafd87a2c7da95109f23144bd"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_mask.c": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_mask.c",
+      "sha256": "506d2c0eaf5dd3ff2405bf9bcf3f4388f71b47d66f1441395040ec33aa6330f1"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_mask.h": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_mask.h",
+      "sha256": "9db73ad1f1f6373515b52756ddcf653461796169c612d02c219f06b9c5906235"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c",
+      "sha256": "96e743fb63c24664245e076abf04be8c3cc7e7b91f066f6df73ec7ce28caf318"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_priv.h": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_priv.h",
+      "sha256": "54dc0d336c528d9ada5a85fa6d44e73f3cf4dcf276ef1cff84399e574c36380f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_rect.c": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_rect.c",
+      "sha256": "48192be13ba2de50ee348f62229200474a831d7ce44955d57f9a0a60d956eb75"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_rect.h": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_rect.h",
+      "sha256": "fec882d465446b7eb9c8bb1e87a9bff044f0f9096c95147a675fcfd226139c4c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c",
+      "sha256": "2183096746351122efba4a1098fef12cdc996c7cd3e69519de3964708a42de53"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.h": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.h",
+      "sha256": "75cf293a98eb520407a6d99286a54c2e6e7511dba4666a92705f9d4a3f4874e9"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c",
+      "sha256": "49dd3a2de85ca3fb03a8d497cb6b2c4d87518bf8d1036c548c2c1811db12b30f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.h": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.h",
+      "sha256": "97c0d1837dd645aee9b923dcd1809574720221230afe7a41547d462469e33bf6"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_utils.c": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_utils.c",
+      "sha256": "346a34d5ab88d28e0c01635e727f317d0640307cb090f2b3c472e2e1c45c6190"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sdl/lv_draw_sdl_utils.h": {
+      "source": "esp/shared/lvgl/src/draw/sdl/lv_draw_sdl_utils.h",
+      "sha256": "d6db836508504bec734855ec540ff40d4f7f0e8b20accc3ddfba76b3b3fd3512"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/stm32_dma2d/lv_draw_stm32_dma2d.mk": {
+      "source": "esp/shared/lvgl/src/draw/stm32_dma2d/lv_draw_stm32_dma2d.mk",
+      "sha256": "71fd7b90bd1aaa27e3fe709f8c279e5a0011f94a0d9ebd70a8b472c9734aed05"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c": {
+      "source": "esp/shared/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c",
+      "sha256": "fa48f196b6f2740964caa56772fa1bf1743036d4c3ad047736ac9cb8e1eb2737"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.h": {
+      "source": "esp/shared/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.h",
+      "sha256": "5e98c56de1b27bf005b82234f379ad9a3c05fc5e275237c9c777ec11a5734a63"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw.c": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw.c",
+      "sha256": "0b01c44ecde76b2666c58031ebe7608c52deb8ee479e908fd601491d086227e5"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw.h": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw.h",
+      "sha256": "901dc548560ba4b9cc1863af72047f60589f1b49db28401e13e5fc637c049b93"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw.mk": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw.mk",
+      "sha256": "e48edb802420ea352ded29e9aaaaa2fa5d8d4e02c5bacd024902551b711e2708"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw_arc.c": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw_arc.c",
+      "sha256": "a7c089db1ba7be5a79953cfb9b4ef7964ef8e4165ca378a77d547d0da247bc74"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw_blend.c": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw_blend.c",
+      "sha256": "fca53b473937735d0d1af866eb149b105c6f241d67e3f06c3f1fcfdf1352ca7d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw_blend.h": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw_blend.h",
+      "sha256": "e6a2b8d2d4d34f71f0f20490169b17bb10c70769ac2e503402b2dcf29b1c037c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw_dither.c": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw_dither.c",
+      "sha256": "ea74f50e6abaf5ac84865cb8c4d7df668cb5f2193b4f1599b771d995adfc69e2"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw_dither.h": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw_dither.h",
+      "sha256": "20f6da665f516bf472dcea0dd936c78be24b88d319ebd1d2e95276d2070e8a09"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw_gradient.c": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw_gradient.c",
+      "sha256": "56bd287607c126d34171797ab5d8a4ad61b177440fa89ab2f5075caa45e830fe"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw_gradient.h": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw_gradient.h",
+      "sha256": "825530bc0aac04d898a2e7190c6d8bcbca8eb1751497aa2626eb9ff9f5b8845f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw_img.c": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw_img.c",
+      "sha256": "4bd9e431a8fe2ad6c1e74957d4b360ba9c11e5539e7145478f495d1353169ed9"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw_layer.c": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw_layer.c",
+      "sha256": "058a15d49e325572083e554c50661a48d1999b67d48e97cdfc24fb860f58964f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw_letter.c": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw_letter.c",
+      "sha256": "fb8053d795a0cec55466c40c4ee494a062ab32429cbe7c89f840e90ac8c5f565"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw_line.c": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw_line.c",
+      "sha256": "b4a45bb599a372785108c70f2b6b88116b039835eefd898b5b9623efc1de53d0"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw_polygon.c": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw_polygon.c",
+      "sha256": "d5f82e860983c33fd1fa85f8fc5748f3dd860170cee105a57e1e28360e84600f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw_rect.c": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw_rect.c",
+      "sha256": "190e68e2c170539a3ba16e26a1f0e8100710c2b3ed4e4a761de234ffbe103db1"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/sw/lv_draw_sw_transform.c": {
+      "source": "esp/shared/lvgl/src/draw/sw/lv_draw_sw_transform.c",
+      "sha256": "0605033c485159a7fba28f8abc629481cacc7f526c008c8ce4aa08686c49e312"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/swm341_dma2d/lv_draw_swm341_dma2d.mk": {
+      "source": "esp/shared/lvgl/src/draw/swm341_dma2d/lv_draw_swm341_dma2d.mk",
+      "sha256": "331ff1ff6500ed0f9c0df14a6574504d7585146327a601269a65e4f28e0ce832"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c": {
+      "source": "esp/shared/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c",
+      "sha256": "cfe9306e76e11bd74edf189c9422c5bf71c5ff90d8216acff669070d11ceb00d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.h": {
+      "source": "esp/shared/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.h",
+      "sha256": "19c718c6c3fc9efa2d445976a76dbecffd8867fbe126298c7d3f150c5d098177"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/README.md": {
+      "source": "esp/shared/lvgl/src/extra/README.md",
+      "sha256": "4a401c00ee7950ceca84a781799cbc3d31a79cf4646c7bdf03e8d389f1ac52ff"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/layouts/flex/lv_flex.c": {
+      "source": "esp/shared/lvgl/src/extra/layouts/flex/lv_flex.c",
+      "sha256": "1d503dab4b64a36a463c97b4789178f47ac0047a0c2b9b6e85e2a7e796200e19"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/layouts/flex/lv_flex.h": {
+      "source": "esp/shared/lvgl/src/extra/layouts/flex/lv_flex.h",
+      "sha256": "defd8f8803a7817942ad59b83dca2371d659316e275cf0b6c5fc31df6ae72db6"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/layouts/grid/lv_grid.c": {
+      "source": "esp/shared/lvgl/src/extra/layouts/grid/lv_grid.c",
+      "sha256": "840a6d783464fd776e249a33834b0055803510fc80cd5b3e8f820c846ad75255"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/layouts/grid/lv_grid.h": {
+      "source": "esp/shared/lvgl/src/extra/layouts/grid/lv_grid.h",
+      "sha256": "1ed694b99f753795e9a590b6446440ececbc7b04a69f9513b8eedccbd1ad8428"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/layouts/lv_layouts.h": {
+      "source": "esp/shared/lvgl/src/extra/layouts/lv_layouts.h",
+      "sha256": "40ddc25a10a4bed4109f56135b56b68feccc177a78342bf7f8fee0aaa5b3c804"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/bmp/lv_bmp.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/bmp/lv_bmp.c",
+      "sha256": "c96ef68b4ef27eda9b3fa0560b273fa97a532bb100b6f5f312dc5fb68e4a50ee"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/bmp/lv_bmp.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/bmp/lv_bmp.h",
+      "sha256": "8356654bae055bea9ab4b8ef0408aa93bcae4423fc585029dd2ff50a887e2154"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c",
+      "sha256": "41be65484d85f87053c0c31e51082973e99e51dc39b210637547b66377a05d26"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h",
+      "sha256": "a0e6972d63deefb35ff309dbfebc27a6a12c3329c19c9f5f9f4968f78bf7d149"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/freetype/arial.ttf": {
+      "source": "esp/shared/lvgl/src/extra/libs/freetype/arial.ttf",
+      "sha256": "82afb35eda3a52edb10106bcc04af93646384421ded538d38792c1444d816022"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/freetype/lv_freetype.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/freetype/lv_freetype.c",
+      "sha256": "d6787432256d425bd2d2db12ab64b364deaa37d965bb89026435ecb07abea971"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/freetype/lv_freetype.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/freetype/lv_freetype.h",
+      "sha256": "b3426c118996f1567abc652c1f2ce4d9ac225415c6dbc2eab0115afd8a6386e8"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c",
+      "sha256": "b9ce0ee2c0ff22c8dec159c805d44a44929b42ab251eba30ad429719780134bf"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c",
+      "sha256": "e414048fd02add6714a5f7872de3d2c0c94db2bb5a9f152960c558fbc2546a18"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c",
+      "sha256": "3e3b1d652f3c9f567ecaf2914ac4f141804b55f2bae3276ae7895d278b5f88d3"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c",
+      "sha256": "04fe71576bb90b52f5c1d41bd3b526682e2baa9d0fdb1f1971d13f939ef704ca"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c",
+      "sha256": "0fbd352154d630fd89dbda267928316e6076b7d849fd2517fc78250348d9be7e"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/fsdrv/lv_fsdrv.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/fsdrv/lv_fsdrv.h",
+      "sha256": "7cb90afe7cfceb610c6579faffa3f49ab7353b8975e5a181af894deb50fd879f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/gif/gifdec.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/gif/gifdec.c",
+      "sha256": "79a6e6db19855b86394b5d44a98208f834aa8713b0ea7f3a1cc89c88936a54e6"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/gif/gifdec.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/gif/gifdec.h",
+      "sha256": "3cea320ff7ef0a2d3f4c380e2bf3d2457b27aac00d6f28b7446ba5e42da26311"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/gif/lv_gif.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/gif/lv_gif.c",
+      "sha256": "ab8e302ea0390f4615a8b18857d8dcf47f1c7673cbe5eff1f3146de417a37456"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/gif/lv_gif.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/gif/lv_gif.h",
+      "sha256": "3a03cc3b17e8874b7cc76054e8bc7d6d7f6ac89df02ee85db800cd6dc9463a91"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/lv_libs.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/lv_libs.h",
+      "sha256": "4659754ae011ea460e2198fc3a5d1245a082e12450da170916a466953d240c8e"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/png/lodepng.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/png/lodepng.c",
+      "sha256": "30e81965693f904bf02ffc8a4f000632d8d59bffec0c88e52090ad85534daf2f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/png/lodepng.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/png/lodepng.h",
+      "sha256": "35d980fde4725566bda493e9e358588b96e27ad17b768b2b4f8c3345c0e2dd24"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/png/lv_png.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/png/lv_png.c",
+      "sha256": "7bf3bcd34dcf1ca3fb8ab03331151b2b14ebc7765ce1c6bb7f5d2fd80f751552"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/png/lv_png.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/png/lv_png.h",
+      "sha256": "b1462d8d3733e56f6a5563fbad4bec3eeedd2fec8c8307361cb1b79a32d1245e"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/qrcode/lv_qrcode.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/qrcode/lv_qrcode.c",
+      "sha256": "22a167653fd70357a790eeeb2adb8cf9d4e260aa0d6bc7587087a6644274c267"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/qrcode/lv_qrcode.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/qrcode/lv_qrcode.h",
+      "sha256": "0691418fc476fd815dac61f2194d6a9cce9db95b6fa0d57828e4319884d263a5"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/qrcode/qrcodegen.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/qrcode/qrcodegen.c",
+      "sha256": "9f1f23b8f800784740da16b9fff08ad0b75072dedb00caed2ae0d4475419cd34"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/qrcode/qrcodegen.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/qrcode/qrcodegen.h",
+      "sha256": "aae0f724eda6c4dec74804b66f35d03d256f25e19cdb1411db94398754dd466c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/rlottie/lv_rlottie.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/rlottie/lv_rlottie.c",
+      "sha256": "88ae411ba9e8f356c39e9c279d13eba1fb32fd956a78503845251908fe5bc07c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/rlottie/lv_rlottie.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/rlottie/lv_rlottie.h",
+      "sha256": "97411dd1108d2cd293d024338497ea8fb48841131ddcfb56ec16d424831ecfe6"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/sjpg/lv_sjpg.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/sjpg/lv_sjpg.c",
+      "sha256": "2016d35ef13b1707640ff9faa30e33435252dc22efe18644110d6b0c9fa10850"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/sjpg/lv_sjpg.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/sjpg/lv_sjpg.h",
+      "sha256": "b0806c7f350bca0a313f40b23ef48557086ab634ae4ec68b487f013f23c5da49"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/sjpg/tjpgd.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/sjpg/tjpgd.c",
+      "sha256": "a7f81e1292919d2055afad873afd878a6114fc73ee54feafbea2498045cbe30a"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/sjpg/tjpgd.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/sjpg/tjpgd.h",
+      "sha256": "4ca94b17864633b93cf21b1ab7585b484f5979ba4a6299cff7fa64f7322e9a77"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/sjpg/tjpgdcnf.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/sjpg/tjpgdcnf.h",
+      "sha256": "59d5a581fd37b195eef562cc0599ee2d253b146dbef0b3cbccf897b7c560775b"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c": {
+      "source": "esp/shared/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c",
+      "sha256": "71eebe2086b00575e1a69df44860e50665d02c6ef61baffcc7f4f5b511920f30"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.h",
+      "sha256": "ea35337ac50f6d4d818f1975e7ada8c13f76eb1d9003ea748dffb7d9406db8f4"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/tiny_ttf/stb_rect_pack.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/tiny_ttf/stb_rect_pack.h",
+      "sha256": "463343566b8ca8574e871961303f71fbdeee358c60c44384fbccd273efdc488f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/libs/tiny_ttf/stb_truetype_htcw.h": {
+      "source": "esp/shared/lvgl/src/extra/libs/tiny_ttf/stb_truetype_htcw.h",
+      "sha256": "676e5962e0256fe4e1f6cb1349882fc7b7bd6f1d5d44190897c00e865a5b1aa2"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/lv_extra.c": {
+      "source": "esp/shared/lvgl/src/extra/lv_extra.c",
+      "sha256": "63a0105ee636b067024c6e087d32775afc8f25422ae2a5a52b92387f7c7ae29a"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/lv_extra.h": {
+      "source": "esp/shared/lvgl/src/extra/lv_extra.h",
+      "sha256": "080683f4a3a538f42f61d4cb8725f4d9515ed08a7d1314c3be63dbad355dede4"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/lv_extra.mk": {
+      "source": "esp/shared/lvgl/src/extra/lv_extra.mk",
+      "sha256": "3dcaa09e7af31a8214f6a13158bf3d6f6169beaf32478d021598d4ecb9cc8876"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/fragment/README.md": {
+      "source": "esp/shared/lvgl/src/extra/others/fragment/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/fragment/lv_fragment.c": {
+      "source": "esp/shared/lvgl/src/extra/others/fragment/lv_fragment.c",
+      "sha256": "74122af380487b3010bae82057e191324b379ad87372ecb594e228e57801967a"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/fragment/lv_fragment.h": {
+      "source": "esp/shared/lvgl/src/extra/others/fragment/lv_fragment.h",
+      "sha256": "4d0c1093928fd3d911a4e5a6d3c33fc4368a34fcbef9f43f40fdd8d223f06211"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/fragment/lv_fragment_manager.c": {
+      "source": "esp/shared/lvgl/src/extra/others/fragment/lv_fragment_manager.c",
+      "sha256": "c781378e9aafcac6a16e04b9aeb668674ef520b0e803464bb3fec1718bb65110"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/gridnav/lv_gridnav.c": {
+      "source": "esp/shared/lvgl/src/extra/others/gridnav/lv_gridnav.c",
+      "sha256": "eeff92c5f0f79263954ac5397a67521f66372369e431981b16c874c15e6433a1"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/gridnav/lv_gridnav.h": {
+      "source": "esp/shared/lvgl/src/extra/others/gridnav/lv_gridnav.h",
+      "sha256": "02b71a9d23ee3b01382b879310fbfff4bdfa8db27fb97548b7eaa7acbae14a26"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/ime/lv_ime_pinyin.c": {
+      "source": "esp/shared/lvgl/src/extra/others/ime/lv_ime_pinyin.c",
+      "sha256": "60e372305722f7a135db0406a98a26fb95c355b0125e0960418b62929b95eed6"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/ime/lv_ime_pinyin.h": {
+      "source": "esp/shared/lvgl/src/extra/others/ime/lv_ime_pinyin.h",
+      "sha256": "a74b063370c5e1695eab2b6853f5b798c1bee56ae261be399a9d8eddc132ca2a"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/imgfont/lv_imgfont.c": {
+      "source": "esp/shared/lvgl/src/extra/others/imgfont/lv_imgfont.c",
+      "sha256": "5aa882a7043fbe4e3415bffbd1ccf284544eb76aee16381d03308bd52223180c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/imgfont/lv_imgfont.h": {
+      "source": "esp/shared/lvgl/src/extra/others/imgfont/lv_imgfont.h",
+      "sha256": "902b04d0fad3a2caa8b0b60bf4827afa1ae3712273f38b696fbc3384318601d6"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/lv_others.h": {
+      "source": "esp/shared/lvgl/src/extra/others/lv_others.h",
+      "sha256": "c522dadef814b8b6ce02f36bd8bd0a4bbeff54dc2b5f88f7ed4700289a4a7e9f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/monkey/lv_monkey.c": {
+      "source": "esp/shared/lvgl/src/extra/others/monkey/lv_monkey.c",
+      "sha256": "33ba8f015b70d65d9220b2bde913870567b097077cd34c14801d3e6429c48308"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/monkey/lv_monkey.h": {
+      "source": "esp/shared/lvgl/src/extra/others/monkey/lv_monkey.h",
+      "sha256": "9d43c46ed15f4d867da5ba4b1896a245e33701d3190aa801d673ee7c077dedea"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/msg/lv_msg.c": {
+      "source": "esp/shared/lvgl/src/extra/others/msg/lv_msg.c",
+      "sha256": "e0ba67531a7b62b093f2f7a7921301b89ba59086aef9a89b6ada05bc0b2352b7"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/msg/lv_msg.h": {
+      "source": "esp/shared/lvgl/src/extra/others/msg/lv_msg.h",
+      "sha256": "3c227d6004650ef7effe436073294dbc9df3c3db9a2c460c2b1d7f3e3af7ea6d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/snapshot/lv_snapshot.c": {
+      "source": "esp/shared/lvgl/src/extra/others/snapshot/lv_snapshot.c",
+      "sha256": "569b92eefe7dad0abb40114d1476d771998d2d2f815face3e13412b579cd14cb"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/others/snapshot/lv_snapshot.h": {
+      "source": "esp/shared/lvgl/src/extra/others/snapshot/lv_snapshot.h",
+      "sha256": "ab7c0ef7336a2383e09924d4d7eae5ffb724ce6a5df429c24000e85e99d59ec0"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/themes/basic/lv_theme_basic.c": {
+      "source": "esp/shared/lvgl/src/extra/themes/basic/lv_theme_basic.c",
+      "sha256": "c69e1169f5ac55e66da6f4209583c3d3862f1327a0c7fbf0bd2d1b7a723d2aef"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/themes/basic/lv_theme_basic.h": {
+      "source": "esp/shared/lvgl/src/extra/themes/basic/lv_theme_basic.h",
+      "sha256": "22324fd976d2f7cdce7eaf013d6aecd3b64411880d3fec06de5141fac9156ab2"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/themes/default/lv_theme_default.c": {
+      "source": "esp/shared/lvgl/src/extra/themes/default/lv_theme_default.c",
+      "sha256": "3db0ed9be596f72aeafe402e21f9ae9359426483f25d13699b9ce69f9384f638"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/themes/default/lv_theme_default.h": {
+      "source": "esp/shared/lvgl/src/extra/themes/default/lv_theme_default.h",
+      "sha256": "0a37f03ce292fb41a6d9494ac08533fe96c92d896990bb5d924b1f1fae645a76"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/themes/lv_themes.h": {
+      "source": "esp/shared/lvgl/src/extra/themes/lv_themes.h",
+      "sha256": "816cc45e064bc5b828b1f97a2be8b04558c7b2fd44bd243b6b9a29cc74bc3ec3"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/themes/mono/lv_theme_mono.c": {
+      "source": "esp/shared/lvgl/src/extra/themes/mono/lv_theme_mono.c",
+      "sha256": "413b11c8c51dd9ba5d82cb52d261e9d5b1b7411d16c1ca882a47b077e84cf01d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/themes/mono/lv_theme_mono.h": {
+      "source": "esp/shared/lvgl/src/extra/themes/mono/lv_theme_mono.h",
+      "sha256": "a60ad7fe77b385c303c97b99a2b88c54624cac82e73bf59ad337a3a3f0f730bc"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/animimg/lv_animimg.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/animimg/lv_animimg.c",
+      "sha256": "1868187f621163969c5c508d5b08a92f17cacaf25460208d29540ceaad39be98"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/animimg/lv_animimg.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/animimg/lv_animimg.h",
+      "sha256": "6a91a483cc622afe81b982df5daaa5c184ddc52bbb19a647d501346f64c990bb"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/calendar/lv_calendar.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/calendar/lv_calendar.c",
+      "sha256": "60cfac162cb55fb32cc411446b11d713b90899c3a789d49ef600dc965d892684"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/calendar/lv_calendar.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/calendar/lv_calendar.h",
+      "sha256": "3712e3e3cbf79775d7bde60c68221f1be529c943ecf70a35f7108d0504735a18"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c",
+      "sha256": "44f67da3a84e8521d893768c853cb8ccd02ccd32893171bdd50f0c74d66451d1"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h",
+      "sha256": "bd131ba8a4660c2a07b87342625beb09c183f3f8e5956dea849ccc60113cf0dd"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c",
+      "sha256": "327c32387afb766656a5b0a68e8180cddde6f60e691abd98dddfee8355f8c7a5"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h",
+      "sha256": "1eed6b8cc71588c7129f16880304eabfa9f855fdc55e6ac8f7bb422e9b47bd59"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/chart/lv_chart.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/chart/lv_chart.c",
+      "sha256": "f126181c74319efc0b258e898c722b4457cb524b32b30c7ce848e5a86ac607c5"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/chart/lv_chart.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/chart/lv_chart.h",
+      "sha256": "2ec992d7a0055aaaa82d29f110bf60c400c0c9692eede8c6e385ae869857ee37"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c",
+      "sha256": "a57caedf5060d08bf88904ceeb7fa6e22cf196ad4fc33be376a11f0044e704ba"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h",
+      "sha256": "676b899fff4c21e0f798d828c554eecec6b23ed8614f72a6744b5ec3b2533e7b"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c",
+      "sha256": "759cc19ea43a102d9143ceebfb76c5dfd28568d6de8f97635ddae99c3a9125b3"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h",
+      "sha256": "69c5dad9d4b279b2284af45c5a2bbc25768ad692275b8eba0f39d5315c8c514f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/keyboard/lv_keyboard.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/keyboard/lv_keyboard.c",
+      "sha256": "8b49b3c48aec70ea4d5de05921b8acaaea3a57327a32d1174fde919647bbf121"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/keyboard/lv_keyboard.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/keyboard/lv_keyboard.h",
+      "sha256": "fc63985a37a611065d51fc523b688aafe5a725acddaf195c7980fb53108e7947"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/led/lv_led.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/led/lv_led.c",
+      "sha256": "7a7c2ce1a47f647e844525507e911f833715c54e46188d77b4d54fda862745ec"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/led/lv_led.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/led/lv_led.h",
+      "sha256": "b693261dbf41e184166a948de9415f578cca226dab664d9fe63c8b9898581a41"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/list/lv_list.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/list/lv_list.c",
+      "sha256": "88f6a9ba599a29e8b4ae854876f307974059769b40508679825d0b1278d0a144"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/list/lv_list.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/list/lv_list.h",
+      "sha256": "bc4d9ab84c9b1326775461e68ce575c1a4c1199ec4eed2e44ff5d25d228d696a"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/lv_widgets.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/lv_widgets.h",
+      "sha256": "c43f5f1e085f572b7c11f2f9a061e5fc1a19614e82f7999469d7b4f1e5005634"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/menu/lv_menu.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/menu/lv_menu.c",
+      "sha256": "1d9bdf9be01093315a9efd19e79fb7f6f695b3c32d0d63a9083f8044bac3ff88"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/menu/lv_menu.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/menu/lv_menu.h",
+      "sha256": "4a54f55e99ddd59ff5e22a0c997cc30723f0fe2911d2f538450eb72b49f7c94f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/meter/lv_meter.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/meter/lv_meter.c",
+      "sha256": "a59ebdf418c7fc16896283f5624667d10b0b7293113238df0a30cd5a6cc98121"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/meter/lv_meter.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/meter/lv_meter.h",
+      "sha256": "17a20f6b6e9ad37b00490112b01702cdbe68eaa2b4ecb7aafddfed30f6df913a"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/msgbox/lv_msgbox.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/msgbox/lv_msgbox.c",
+      "sha256": "0e8504debd8881cf4bea717160b4eefe821ca31f35391a8450e8829cd95c09db"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/msgbox/lv_msgbox.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/msgbox/lv_msgbox.h",
+      "sha256": "a50dda137cbcd84b7a34d86fa00a84c0a9b85afc17c553cf6472dc2310715528"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/span/lv_span.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/span/lv_span.c",
+      "sha256": "4fc9da9c70c9bde0350c9f4ce6328958b8726815e789d80db5f82aafcb549716"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/span/lv_span.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/span/lv_span.h",
+      "sha256": "ebd64e056662da901097a4b88c8f6098871ac8118a00f9953e66f4a994e7a6fa"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/spinbox/lv_spinbox.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/spinbox/lv_spinbox.c",
+      "sha256": "0109c88f9f53467d7364eb3fa4c903690ed345438aa527fc3acdd5e810b9b0c4"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/spinbox/lv_spinbox.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/spinbox/lv_spinbox.h",
+      "sha256": "803320448674253779bfb5930f81f9289bfbe41d00572e0724ca8054ceb7c659"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/spinner/lv_spinner.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/spinner/lv_spinner.c",
+      "sha256": "9b9829f3f14c345fa245c976f0fede94fbedfd1a79642ce60ced0018d14ffa7e"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/spinner/lv_spinner.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/spinner/lv_spinner.h",
+      "sha256": "978fa12fa473abc96456de30bcf3564adf9fad691fea1d86a8ec0d044c9a1930"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/tabview/lv_tabview.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/tabview/lv_tabview.c",
+      "sha256": "f6c96d4f1da9408cb7979e886fd3cfed3dc00cb1d28cd24bd67bf11f72a8ad61"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/tabview/lv_tabview.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/tabview/lv_tabview.h",
+      "sha256": "aeb30ab101f0fd0bdbb48472054d1cd4c7fbfbfa6bbf83d5c3066348fc708919"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/tileview/lv_tileview.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/tileview/lv_tileview.c",
+      "sha256": "4308638c69852ab22f7a5e18537e79014add33ae905c941039e9649f067ac47d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/tileview/lv_tileview.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/tileview/lv_tileview.h",
+      "sha256": "d8d5a711989a89b0faa07f574f45180b3f9dfe0460b9ceafe6ece66f86cb3554"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/win/lv_win.c": {
+      "source": "esp/shared/lvgl/src/extra/widgets/win/lv_win.c",
+      "sha256": "cd2d7b4e00fa3ed153ecc643694bf7d570dca31d75dced806339092a4234e506"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/extra/widgets/win/lv_win.h": {
+      "source": "esp/shared/lvgl/src/extra/widgets/win/lv_win.h",
+      "sha256": "c2641208ea99475c1e2fff0a04a654a73737ad586de8f65cef710a7de792cda1"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/korean.ttf": {
+      "source": "esp/shared/lvgl/src/font/korean.ttf",
+      "sha256": "bc842cc04c1718ef4e7da648c43efbed53b95ec4952c4b43b8146c7b1ea7cecf"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font.c",
+      "sha256": "5289eb2923c4f7a947b2d8a9fb7a7398f9acd01ebbd2297e048cb1dd39d2a20e"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font.h": {
+      "source": "esp/shared/lvgl/src/font/lv_font.h",
+      "sha256": "1c29529613fc27d8b72d21016b1298ff828ea098069319beb60cb3c6ed90a982"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font.mk": {
+      "source": "esp/shared/lvgl/src/font/lv_font.mk",
+      "sha256": "350ff0e74e814cc6a12759f94741fa8aad50629e72ad8d9707c156f4d67acfd1"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c",
+      "sha256": "07af8f456c4a5d2859ef5b10aa72b803dd182f381437d18d849c2a199ed94a51"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_fmt_txt.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_fmt_txt.c",
+      "sha256": "310ec9757ce6e5196a9246b4aa7d8e6a0209c89dc8c07c34f6209efdc7443a72"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_fmt_txt.h": {
+      "source": "esp/shared/lvgl/src/font/lv_font_fmt_txt.h",
+      "sha256": "da8a92d80c1aec21330efb5cbc8b2ca7576436fb7bb5c139ce6d3bbe8879d4e5"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_loader.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_loader.c",
+      "sha256": "6d4f12094fa8cf93971e58f69ce4d11e90071c45cd5293c127e3bcbbbd222b09"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_loader.h": {
+      "source": "esp/shared/lvgl/src/font/lv_font_loader.h",
+      "sha256": "96fa281420d31e2ffcf04218311716cb1139e41b0bf75c3c930e183fb93f4362"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_10.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_10.c",
+      "sha256": "4589c061c2e88f1639778186d0576c931352767f13a82cf7a87ee14daa54f3b8"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_12.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_12.c",
+      "sha256": "d60af037f3d662208d2480d85e3da136d5eafee4ea1f57c840e538cc15d8248e"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_12_subpx.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_12_subpx.c",
+      "sha256": "fe92879aeacec23352f66385418e97481062188f08b79b1dbf6b49ecdf760067"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_14.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_14.c",
+      "sha256": "15549af3e2316d408cc3870abb441ce11c096a4addce601861e43fd1617d29fd"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_16.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_16.c",
+      "sha256": "395faf6d0427c77c24149ec6e8b09047649f8c7ac489487f8374efcfb519d36d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_18.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_18.c",
+      "sha256": "9d3f2f786b0a94e480398dbee3b32b4efd0c27876a1765cc591020f88face180"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_20.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_20.c",
+      "sha256": "a011c592674f82dd40664d2ddcc790f030af941a66cfee2f7020f56ddeb3596a"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_22.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_22.c",
+      "sha256": "1c69e0df6fb0db1626df9cf3cd44b3f2a355aa1eb5f07447e9684c9a1d496cc0"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_24.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_24.c",
+      "sha256": "9e26aa6b3180c0193cea7564223f0c7ab0d79644909d6828fe97b2b6196c9102"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_26.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_26.c",
+      "sha256": "c8e75ff3ce2a409db959a8fb4658e1e9f1b5ade5372bdf8d8773147b74567e58"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_28.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_28.c",
+      "sha256": "1f34b9cf8457385240dea714d5744aa32722878af7f106bb1c6f556ef64a6307"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_28_compressed.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_28_compressed.c",
+      "sha256": "fb20b4b39c45f6c8507748d2ed7c07e4f893256d96a3fe470006f43943d37c5e"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_30.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_30.c",
+      "sha256": "8f2b0fdec0043b4a347e63754238a8c7af5d45ff69c9de7cce40561f3ff81676"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_32.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_32.c",
+      "sha256": "65cfd6f41946a99037ffdbde2c74ab2d0899000abadedfc87f00b517d8510633"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_34.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_34.c",
+      "sha256": "335512aa4f3aadce77a57c07bd62531fbd65d232e5bbddee49392c39466db27d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_36.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_36.c",
+      "sha256": "302be926e2c00daa9c29c01cd615d0122b7d52d7ca2e64443e14d05bacf54db7"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_38.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_38.c",
+      "sha256": "9d28872727a2995d22755230656254fc6ff14426ece5f8f16881ab2335731848"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_40.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_40.c",
+      "sha256": "b7b2e52991c374f2401ff9cac962a33404595b251aa5e8c719b816c224ac57bd"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_42.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_42.c",
+      "sha256": "f237e647b291ab9940c856e86b7f46d65e4cdcebd254fb85c369fc7fc7bdf7a7"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_44.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_44.c",
+      "sha256": "efd99ffda4917c898b02d0f4579493d09540fb692554f569af48f8491900c1b5"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_46.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_46.c",
+      "sha256": "1c1ab4bb1283ade22ae25942fbed6d4a279a77e442b837a5e33dcf9fb8a75389"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_48.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_48.c",
+      "sha256": "f2c8ef9e9ffc81f72ff05f03344f744c3b808be6f32aeed6912ecd95242097a7"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_montserrat_8.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_montserrat_8.c",
+      "sha256": "dc2b89c884d765c425bc1067ef1a94ae63fbb29fa91a6292b0905be72a858fda"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_simsun_16_cjk.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_simsun_16_cjk.c",
+      "sha256": "c81c9a0ac74bafcd19afcdf07c303efa625744df83cd604d0a295bc974389025"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_unscii_16.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_unscii_16.c",
+      "sha256": "a289c5d007b5796baf5301a521079a66498978815f7c2655db1be8c5bb830dda"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_font_unscii_8.c": {
+      "source": "esp/shared/lvgl/src/font/lv_font_unscii_8.c",
+      "sha256": "e158311736de6bbf90b4e513ee0f586a113798ec69feca49ecf1220b491c9c56"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/font/lv_symbol_def.h": {
+      "source": "esp/shared/lvgl/src/font/lv_symbol_def.h",
+      "sha256": "e17a46adbf17e5f1a3ae9701c10c9fceb6c692a20755eac6c4a8bf5341f3521d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/hal/lv_hal.h": {
+      "source": "esp/shared/lvgl/src/hal/lv_hal.h",
+      "sha256": "231945a3c4ba8a6b94960d993a50912f39efe5ae6e892bfe2671f180fc021462"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/hal/lv_hal.mk": {
+      "source": "esp/shared/lvgl/src/hal/lv_hal.mk",
+      "sha256": "eff6f3bf7bea05c20deace70258cd579752961353d6456ff2aa18f61b1268e50"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/hal/lv_hal_disp.c": {
+      "source": "esp/shared/lvgl/src/hal/lv_hal_disp.c",
+      "sha256": "042607aab514f55fc69e54bb6c02187ead284cd8bb13e686fe11635c7b14c0d5"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/hal/lv_hal_disp.h": {
+      "source": "esp/shared/lvgl/src/hal/lv_hal_disp.h",
+      "sha256": "75a11947fab461d80e1b08f47883cd9f5fe15d2c1c42b7408b0339d5f96a9469"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/hal/lv_hal_indev.c": {
+      "source": "esp/shared/lvgl/src/hal/lv_hal_indev.c",
+      "sha256": "1cacaaf4933e0777ef8ef71578dc6680b4f7bea129cd3823224da99d609ac99d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/hal/lv_hal_indev.h": {
+      "source": "esp/shared/lvgl/src/hal/lv_hal_indev.h",
+      "sha256": "5f71df9d70292a8d816f0ac4a57cd4069e7522e3e70f3348816271c2f079b400"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/hal/lv_hal_tick.c": {
+      "source": "esp/shared/lvgl/src/hal/lv_hal_tick.c",
+      "sha256": "45dc1fc8486561994d4e7e09a06faeede0edb576788bc32b8908ae0dcd6daec3"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/hal/lv_hal_tick.h": {
+      "source": "esp/shared/lvgl/src/hal/lv_hal_tick.h",
+      "sha256": "9b8de58e1af3899a34745d986da35805501e6e3790deeafef0a2f02bd234ebbc"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/lv_api_map.h": {
+      "source": "esp/shared/lvgl/src/lv_api_map.h",
+      "sha256": "24e2b845f46c78ff12adcacb438fa17dbab9ccb734fdd0e577d9f80cec366b47"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/lv_conf_internal.h": {
+      "source": "esp/shared/lvgl/src/lv_conf_internal.h",
+      "sha256": "87bd94e9f27939b1feee45b2a5f022654f96b9394d53cd1833f2f3d438e7ca5f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/lv_conf_kconfig.h": {
+      "source": "esp/shared/lvgl/src/lv_conf_kconfig.h",
+      "sha256": "d7419d46f8a45156f7cc3fc3bf3bf7c399de98e3b78003e84d49443913b7c15c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/lvgl.h": {
+      "source": "esp/shared/lvgl/src/lvgl.h",
+      "sha256": "68f18aa6f024c7aa88d32061fee5e620dbcee527e251454db34acd9438517465"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_anim.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_anim.c",
+      "sha256": "f02e19ea08d3474d61893d651b21fee7ee4286979769eacc3b8abdc1c099f408"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_anim.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_anim.h",
+      "sha256": "7335cc0563f191bcf07f6a5211c4ed65cf6102c6062e1d175088fe1453e87b4d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_anim_timeline.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_anim_timeline.c",
+      "sha256": "b32a4817ed58834373d8b1f4da6710d8156702e95b6a3121e2b793074d93fbc5"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_anim_timeline.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_anim_timeline.h",
+      "sha256": "4efd064cc64bd1b49a697719e6804250b93f22f45b2f8afb0e9ca76b7176a5f6"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_area.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_area.c",
+      "sha256": "a0e1332853e1f595fb7e052050d4320e263ebe965df5ed88d2993212aba91cee"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_area.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_area.h",
+      "sha256": "b5acddf9c0e2bc4cf09f78b8442c50de34a4ece0750a465a10ef6b698e2ef769"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_assert.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_assert.h",
+      "sha256": "db8794dc8de027f256895d25b900cc920e92552d5f073b47111aadcac2015e52"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_async.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_async.c",
+      "sha256": "7d10fbeb87cb8918a6db488675f5ececb570794ee8dfc7e1bdc2e0e91aecf552"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_async.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_async.h",
+      "sha256": "fd2de00ca9b113d487ba291fa0870c2f9cc09017c0c5431e7f99c70664b0883f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_bidi.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_bidi.c",
+      "sha256": "a6f2dceda498358fe9cb797d4647b41b80d9ab0162113e656f822f029487d7ca"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_bidi.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_bidi.h",
+      "sha256": "41aa79435ddad5521e9d5fb4aa2058069d48431c0dace98ddfdcdbd0373edad8"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_color.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_color.c",
+      "sha256": "e49eeebc2e3e85d5b48e44772a5c9adcdf4f69472ae0014b207cb614775c55ec"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_color.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_color.h",
+      "sha256": "7b7ef976bb4fa02449b211b657fa971dbfc550faa0cfbebaf08136078151fbcc"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_fs.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_fs.c",
+      "sha256": "d6df7c889ce372f8396b601eb919cf372973e1a508f71ddbd5d812c9f10caba9"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_fs.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_fs.h",
+      "sha256": "8bfd04a93f2f360adb50702588931555006ac78095d5c74c32bd865ab0709d07"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_gc.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_gc.c",
+      "sha256": "61f35daaec0a2770c978e8dd35028f040693b569c6d3418b8cefa4a2716fa82d"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_gc.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_gc.h",
+      "sha256": "f1b5419a1fac85d533f44c85de7a87ed1bdcd5df4223f2d4c2f04dae6a6a8879"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_ll.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_ll.c",
+      "sha256": "0b958b85b44e176075ebb164e22546a61003ef5f3587cea20face78a563b37fe"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_ll.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_ll.h",
+      "sha256": "22465ed3ceb42a354278c576cc22162232ef93448efbf5f22542284b1e77d135"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_log.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_log.c",
+      "sha256": "e2ff38631c20cb63a05353d8e254bfc2ab273dd921c392f00cdaa7fb06935c5b"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_log.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_log.h",
+      "sha256": "db295695e48285757a18ce9ec8c96b84ec022a9e85ab9121f7fb1a19f2f836ae"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_lru.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_lru.c",
+      "sha256": "f02d06a7a264f7dfe2f9a79cc1f970226806356bf0b652ee0a1169b0afa527c5"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_lru.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_lru.h",
+      "sha256": "2dc5be3d6159f37d69c10215578a4b3afc910ef1418e8be129330dd5a755455b"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_math.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_math.c",
+      "sha256": "73c06546e127e3340de267334f81f02980f6c3ca81d78d2a42786009c35bd879"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_math.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_math.h",
+      "sha256": "309870dacdd2761f8aea36b521a3cab829a80db4cb2c49aae15ba3fa8a645362"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_mem.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_mem.c",
+      "sha256": "b0df6e8e287adf65152527777e5c78a8e877481e7a08828380f5dfb8741b30da"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_mem.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_mem.h",
+      "sha256": "f6ed296d6e31aff882f407920464186464a163f2f4b5b629e784322e7412defd"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_misc.mk": {
+      "source": "esp/shared/lvgl/src/misc/lv_misc.mk",
+      "sha256": "e0243baba11ab40a1bbd4446751d469b8668a7018eae41a24ef00713c553906b"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_printf.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_printf.c",
+      "sha256": "9c282c81e9fcee59d90a3a7fee3381a08b251ca95f42d3c77e6f01612ffd8ad1"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_printf.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_printf.h",
+      "sha256": "639b6dc6903230106561819099e4dd064a405768ff92fb6ecc9d3837c1596d36"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_style.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_style.c",
+      "sha256": "e6f0ab02ef84d1429cb9d74396a9a57ade168f0740b2075bbffdd48e0898392f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_style.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_style.h",
+      "sha256": "2edfee52db13c67e103fa9651223534189a0fcdbae3b27ce2af92a4725c2bf3b"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_style_gen.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_style_gen.c",
+      "sha256": "337d987f4287c99fda6b24b50eba6e7461933b6597da699b230b14fa11b13e18"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_style_gen.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_style_gen.h",
+      "sha256": "7af1f66cac668af2c55affec59bbe2b85baef2f295b41b00e724d3afd51df6ab"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_templ.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_templ.c",
+      "sha256": "40d1b3dab81753f66ebca0b6d0b3065bc92d317c3c54e1809628d666dbeff767"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_templ.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_templ.h",
+      "sha256": "7cc6e2a787852952c13d4d42b1e9b3967bcac6c27341390a58cf470e868c30a4"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_timer.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_timer.c",
+      "sha256": "06ff14356e1a74fc8bd5e542de142038040fe32f45eef16d01ad9f3d16e86be4"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_timer.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_timer.h",
+      "sha256": "0d9d672b4d13580dd2dc125243cc1f00ca50ef29bfefe72b2a7c8684a561091f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_tlsf.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_tlsf.c",
+      "sha256": "6a3047103046b300ce34f52a153147838072ac003530433914b508f91ddf7f54"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_tlsf.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_tlsf.h",
+      "sha256": "e59c01b34c9d02ceb74c86b37239f8bf98d0ec62695f290513f0164502dc1202"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_txt.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_txt.c",
+      "sha256": "54188ad584a8d3e6ebf00e256849b765696f40641ab3b071764435f903e2b4d5"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_txt.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_txt.h",
+      "sha256": "367f1bc02e662c011a56b7d0dc524b98a37ec2badb0d44c01a02a8f86a05d295"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_txt_ap.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_txt_ap.c",
+      "sha256": "d43b6d8d47f5ad8240e87045ecc12317542eb4014259ccddd06463d19dd8b268"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_txt_ap.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_txt_ap.h",
+      "sha256": "2e90f30ddbaba0aa765b456873671044714590518fbfcce373ce672f4cdf147c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_types.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_types.h",
+      "sha256": "0fd14eb21df4be282371536348d559a1fc3d3586775fba807d9aa66798a96b20"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_utils.c": {
+      "source": "esp/shared/lvgl/src/misc/lv_utils.c",
+      "sha256": "bf0bcebe789d0fea9107705ea1a346329d676c8bb232c4161654e529dc03285a"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/misc/lv_utils.h": {
+      "source": "esp/shared/lvgl/src/misc/lv_utils.h",
+      "sha256": "92024a8c5825d28ff315bd23e8a7c3a28fafb229a869e28578756c0915a22b9b"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_arc.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_arc.c",
+      "sha256": "409c0b21f212fd34175118a43b1ec650d1461e38a2bf107fc61e35beb243e788"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_arc.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_arc.h",
+      "sha256": "05415a87787fa95d89ef7b631e3c18f168d4689a387d57be627efe2ca369e74a"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_bar.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_bar.c",
+      "sha256": "5a90a4d350d3f1cfcb52a7e61f61c71e7b879329d5f32d19391efa464f982c2f"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_bar.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_bar.h",
+      "sha256": "3297f04da3682d3d4577dbcb2ea1bca3b699542e76bbc73e1e1965faee730a05"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_btn.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_btn.c",
+      "sha256": "3d805612ef083f4733bf3fc9bc40afea6c10673c5ada10352c040173c26033f0"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_btn.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_btn.h",
+      "sha256": "b6a3563dd46ad6d8ba81bf2c00dccee7693dd18f0e62811e19bbff04f1566e9c"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_btnmatrix.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_btnmatrix.c",
+      "sha256": "e759aafc92ed199d943e16654ac360b886e5afb8673316341eb9d0ce37c73614"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_btnmatrix.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_btnmatrix.h",
+      "sha256": "1437ae0a18ead188456b6511347a4410d0eb3621e4cb5497fc6de1fc69242c61"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_canvas.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_canvas.c",
+      "sha256": "e7ca85e11db36a725c77af4b05752e460e88f750d2f286442336ebb81e0dcd4b"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_canvas.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_canvas.h",
+      "sha256": "76037adf9cda2a4716b3737e4356ecce0d8abd3a58caa466543ca6bde2a50614"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_checkbox.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_checkbox.c",
+      "sha256": "cd6b1c5108810673527d675bbd1f757d1e925d965b2c53d2933dc116c40c688e"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_checkbox.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_checkbox.h",
+      "sha256": "fc9003bdaa0ad8da8d6fc4bbe44df2f797bf5b3176b5c002b11fd44af4b596a4"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_dropdown.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_dropdown.c",
+      "sha256": "676c1029009fcb202c53c22285c9dad1342412a40062f9a5168add04b67290bd"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_dropdown.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_dropdown.h",
+      "sha256": "627f7d9d24b18190689145224c3f88e835cc26312f93bc5511e332b4c7a48bbe"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_img.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_img.c",
+      "sha256": "1811f38b3e94a14ed7e76ddf3f52dc0047e6a3ba4539fbacba6e4799e5ca3d60"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_img.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_img.h",
+      "sha256": "cf3a200575379c0a57308120c78633facd5b7abf58005b4baf97fc583566f1c3"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_label.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_label.c",
+      "sha256": "37f320495ab4f3eef494d0fa58fcdaf0b9b80ccf3e019937851fd22055bffd2a"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_label.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_label.h",
+      "sha256": "d1b9f7de0aab644a9094ef3ee79b337c4d5a1c1955cf34bdfa48e36368d07771"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_line.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_line.c",
+      "sha256": "6ddf85a82dbbbdf972d906aa030b4e4ba6975166c756cb267cf00205e822e4c9"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_line.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_line.h",
+      "sha256": "3fc369690b2427aa322641827316d430e6e8518ac19a24a1bb3d4f184ea5c593"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_objx_templ.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_objx_templ.c",
+      "sha256": "5fa7e5a2f45ea7234a2307110cd7a556e64231dce953326895e8256adc32f719"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_objx_templ.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_objx_templ.h",
+      "sha256": "11bf2ea2a0d45890eb19efb6d88704454b2c7d8d8219e56e491dabdad1883354"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_roller.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_roller.c",
+      "sha256": "a68098e5a18156f7633825d04f6db6ce4ec1545635055d0640e6b798c089b5b2"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_roller.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_roller.h",
+      "sha256": "50f17a401b9d740d57696d234e30f0f46afb7ccb579d7566a279f0c4232917e6"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_slider.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_slider.c",
+      "sha256": "715ffe14f71800b5413b44d987b2bebbffd41bce7bba8d7dd114512b63860cdd"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_slider.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_slider.h",
+      "sha256": "3a53be57428dd579f7442f4b64c333d508f3a38bbe0cdc9496c35ca11820fd98"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_switch.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_switch.c",
+      "sha256": "b69a3a3e438c03e48b32c1dac04a15a35861e161c0eb4086139e101d36849ab4"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_switch.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_switch.h",
+      "sha256": "e22ce149f0134f1320d1b5c6ff56ddeb9d36fd403b9555b4ba22586535ff03a3"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_table.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_table.c",
+      "sha256": "25a12d4c4852eae6e1c10230a0a46026b09c416a84f9fae6d9e54c30cd0a47e8"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_table.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_table.h",
+      "sha256": "37bca2cc04801f64672db4408654723110e62c2145f0b0aba7538b539eb6f0f5"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_textarea.c": {
+      "source": "esp/shared/lvgl/src/widgets/lv_textarea.c",
+      "sha256": "33e7503da3dd73041010bbbaff690aca4e8f912057c3798102e232148d3920c7"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_textarea.h": {
+      "source": "esp/shared/lvgl/src/widgets/lv_textarea.h",
+      "sha256": "03b4cb7ee8afffadf2428c80939a14dae834ccaa80d5d8bb641d456220962b94"
+    },
+    "examples/smart-planter/firmware/components/lvgl/src/widgets/lv_widgets.mk": {
+      "source": "esp/shared/lvgl/src/widgets/lv_widgets.mk",
+      "sha256": "fa85ec38fbaf3211726c150ddcc0f997781fe555f16209a0f4a66a2736365af5"
+    },
+    "examples/smart-planter/firmware/main/main.c": {
+      "source": "esp/S3_Pi_Module/main/main.c",
+      "sha256": "1c9ec340288790cfb0ccd075b0407274dc48f33516425a9f72204b55e6bd2cc7"
+    },
+    "examples/smart-planter/firmware/main/Kconfig.projbuild": {
+      "source": "esp/S3_Pi_Module/main/Kconfig.projbuild",
+      "sha256": "2de3dc39557515fef9ee675545b1d772cf266f7a33c565a161e6f206b5249ced"
+    },
+    "examples/smart-planter/firmware/partitions.csv": {
+      "source": "esp/S3_Pi_Module/partitions.csv",
+      "sha256": "ce5e77649576bf899994b0a6858153b21bb724727c0429c4aa5f17e26ba94d7d"
+    },
+    "sdk/include/pi_module_api.h": {
+      "source": "pi_terminal/src/modules/api/pi_module_api.h",
+      "sha256": "c1656681488f9be178602698f324b6afd34c32ff3205bd6cd7dea6b504eb90cd"
+    },
+    "tools/package_tool.py": {
+      "source": "pi_terminal/tools/package_tool.py",
+      "sha256": "336cae4db124cf0bd976d67366e3951391776861f4fbb839eb8ac0c8f06b0f29"
+    },
+    "tools/mock_module.py": {
+      "source": "pi_terminal/tools/mock_module.py",
+      "sha256": "4c1c39831eb61b633f764944955ca352e287ffa278ba7e60852a84cb0112ae3c"
+    }
+  }
+}

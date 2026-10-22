@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+artifacts/
+**/embedded_package.json
+**/embedded_package.tar.zst
+**/sdkconfig
+**/sdkconfig.old
+**/sdkconfig.private
+**/build/
+keys/

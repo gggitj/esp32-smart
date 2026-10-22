@@ -1,0 +1,6 @@
+**/build/
+**/sdkconfig
+**/sdkconfig.old
+**/sdkconfig.private
+**/embedded_package.json
+**/embedded_package.tar.zst

@@ -1,0 +1,5 @@
+embedded_package.json
+embedded_package.tar.zst
+sdkconfig*
+!sdkconfig.defaults
+build*/

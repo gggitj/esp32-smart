@@ -1,0 +1,18 @@
+{
+  "id": "module.@MODULE_ID@",
+  "name": "@MODULE_NAME@",
+  "version": "0.1.0",
+  "module_id": @MODULE_ID@,
+  "package_id": "module.@MODULE_ID@-0.1.0-arm64",
+  "package_version": "0.1.0",
+  "host_arch": ["aarch64", "arm64"],
+  "library": "libmodule.so",
+  "qml_page": "qml/ModulePage.qml",
+  "abi_version": 1,
+  "min_host_api": 1,
+  "qt_major": 6,
+  "unload_contract": "synchronous-stop-v1",
+  "capabilities": [],
+  "permissions": ["transport.ble"],
+  "actions": []
+}

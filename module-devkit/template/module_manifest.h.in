@@ -1,0 +1,2 @@
+#pragma once
+static constexpr const char MODULE_MANIFEST_JSON[] = R"pi_manifest(@MODULE_MANIFEST_JSON@)pi_manifest";

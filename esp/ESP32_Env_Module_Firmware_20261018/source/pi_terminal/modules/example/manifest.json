@@ -1,0 +1,21 @@
+{
+  "id": "example.device",
+  "name": "环境监测",
+  "version": "2.1.0",
+  "module_id": 80,
+  "package_id": "example.device-2.1.0-arm64",
+  "package_version": "2.1.0",
+  "host_arch": ["aarch64", "arm64"],
+  "library": "libexample_module.so",
+  "qml_page": "qml/ExamplePage.qml",
+  "control_protocol": "pogo-control-v1",
+  "data_protocol": "module-defined-v1",
+  "abi_version": 1,
+  "min_host_api": 1,
+  "max_payload": 65532,
+  "qt_major": 6,
+  "unload_contract": "synchronous-stop-v1",
+  "capabilities": ["sample.read", "sample.configure", "env.read"],
+  "permissions": ["transport.ble", "transport.hotspot_lan"],
+  "actions": ["open", "start", "stop", "request_disconnect", "drop_link", "stale_data"]
+}

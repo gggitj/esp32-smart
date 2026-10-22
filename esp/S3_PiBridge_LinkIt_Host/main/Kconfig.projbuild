@@ -1,0 +1,9 @@
+menu "S3 Pi control bridge identity"
+config PBRIDGE_MODULE_ID
+    int "Provisioned product module ID"
+    range 1 255
+    default 80
+config PBRIDGE_INSTANCE
+    string "Provisioned module instance (letters, digits, underscore or hyphen)"
+    default "pogo-device-test"
+endmenu

@@ -1,0 +1,8 @@
+# Safe non-secret defaults for the standalone ESP32-S3 module template.
+# Provisioned token, Pi hotspot credentials and board-specific options belong
+# in a private sdkconfig supplied to firmware-build.sh.
+CONFIG_IDF_TARGET="esp32s3"
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"
+CONFIG_PARTITION_TABLE_FILENAME="partitions.csv"

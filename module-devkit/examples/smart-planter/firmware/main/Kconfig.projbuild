@@ -1,0 +1,88 @@
+menu "Pi module data service"
+
+    config APP_PI_DATA_ENABLE
+        bool "Enable Orange Pi WiFi/TCP/BLE data service"
+        default y
+
+    config APP_PI_DATA_SSID
+        string "WiFi SSID to join as STA"
+        default "PI_MODULE_NET"
+
+    config APP_PI_DATA_PASSWORD
+        string "WiFi password"
+        default ""
+
+    config APP_PI_DATA_INSTANCE
+        string "module_instance reported in JSON sessions"
+        default "pogo-device-test"
+
+    config APP_PI_DATA_TOKEN
+        string "session token required by session_open"
+        default ""
+        help
+            Provision a device token in a private sdkconfig. No test credentials
+            are supplied by the repository.
+
+    config APP_PI_DATA_PORT
+        int "TCP server port"
+        default 4580
+
+    config APP_PI_DATA_STATIC_IP
+        string "Optional static IPv4 address for the Pi hotspot"
+        default ""
+
+    config APP_PI_DATA_NETMASK
+        string "Static IPv4 netmask"
+        default ""
+
+    config APP_PI_DATA_GATEWAY
+        string "Static IPv4 gateway"
+        default ""
+
+    config APP_PI_DATA_BLE_NAME
+        string "BLE GAP device name"
+        default "POGO_DEVICE_TEST"
+
+    choice APP_PI_TRANSPORT_MODE
+        prompt "Transport mode announced to the host during LinkIt handshake"
+        default APP_PI_TRANSPORT_LAN
+
+        config APP_PI_TRANSPORT_BLE
+            bool "BLE-only business data"
+
+        config APP_PI_TRANSPORT_LAN
+            bool "LAN-only business data"
+    endchoice
+
+    choice APP_PI_PACKAGE_TRANSPORT
+        prompt "Signed plugin package path announced to the host"
+        default APP_PI_PACKAGE_DATA
+
+        config APP_PI_PACKAGE_DATA
+            bool "Use the selected business data lane"
+
+        config APP_PI_PACKAGE_HOTSPOT_HTTP
+            bool "BLE business data, hotspot HTTP package"
+            depends on APP_PI_TRANSPORT_BLE
+    endchoice
+
+endmenu
+
+menu "Planter power detection"
+    config PLANTER_EXTERNAL_POWER_GPIO
+        int "External supply valid signal GPIO (-1 = not wired)"
+        range -1 48
+        default -1
+        help
+            Requires a verified 3.3V-safe PG/VBUS detection circuit.
+            Do not use an occupied board pin or connect USB 5V directly.
+    config PLANTER_EXTERNAL_POWER_HIGH
+        bool "External supply valid signal is active high"
+        default y
+    config PLANTER_BATTERY_ONLY_CONFIRMED
+        bool "Explicitly commissioned battery-only board (no other supply path)"
+        default n
+        help
+            Enable only after verifying the board has no USB or external supply
+            bypass. Not a runtime automatic power-source detector.
+endmenu

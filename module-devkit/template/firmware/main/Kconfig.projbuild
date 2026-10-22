@@ -1,0 +1,40 @@
+menu "Module SDK"
+choice MODULE_TRANSPORT
+    prompt "Module business transport"
+    default MODULE_TRANSPORT_BLE
+config MODULE_TRANSPORT_BLE
+    bool "BLE"
+config MODULE_TRANSPORT_LAN
+    bool "Hotspot LAN"
+endchoice
+config MODULE_INSTANCE
+    string "Module instance"
+    default "module-@MODULE_ID@"
+config MODULE_TOKEN
+    string "Provisioned module token"
+    default ""
+    help
+        Set privately. Do not commit credentials.
+config MODULE_PORT
+    int "Business TCP port"
+    default 4580
+config MODULE_BLE_NAME
+    string "BLE device name"
+    default "PiModule-@MODULE_ID@"
+if MODULE_TRANSPORT_LAN
+config PI_HOTSPOT_SSID
+    string "Fixed Pi hotspot SSID"
+    default "PI_MODULE_NET"
+config PI_HOTSPOT_PASSWORD
+    string "Fixed Pi hotspot password"
+config PI_MODULE_STATIC_IP
+    string "Module static IPv4 (empty for DHCP)"
+    default ""
+config PI_MODULE_NETMASK
+    string "Module netmask"
+    default ""
+config PI_HOTSPOT_GATEWAY
+    string "Fixed Pi hotspot IPv4 gateway"
+    default ""
+endif
+endmenu

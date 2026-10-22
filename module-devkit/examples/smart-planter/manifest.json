@@ -1,0 +1,21 @@
+{
+  "id": "planter.environment",
+  "name": "智能盆栽 · 环境看板",
+  "version": "3.0.0",
+  "module_id": 80,
+  "package_id": "planter.environment-3.0.0-arm64",
+  "package_version": "3.0.0",
+  "host_arch": ["aarch64", "arm64"],
+  "library": "libmodule.so",
+  "qml_page": "qml/ModulePage.qml",
+  "abi_version": 1,
+  "min_host_api": 1,
+  "qt_major": 6,
+  "unload_contract": "synchronous-stop-v1",
+  "max_payload": 65532,
+  "control_protocol": "pogo-control-v1",
+  "data_protocol": "module-defined-v1",
+  "capabilities": ["env.read", "battery.read", "history.read"],
+  "permissions": ["transport.hotspot_lan"],
+  "actions": ["request_disconnect"]
+}

@@ -1,0 +1,27 @@
+# Build outputs
+build/
+build_*/
+out/
+dist/
+
+# ESP-IDF
+sdkconfig
+sdkconfig.old
+sdkconfig.private
+managed_components/
+dependencies.lock
+*.bin
+*.elf
+*.map
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Local environment
+.env
+*.local
+
+# IDE
+.vscode/
+.idea/

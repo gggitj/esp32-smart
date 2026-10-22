@@ -1,0 +1,15 @@
+[Unit]
+Description=Orange Pi Zero 3 Qt ESP32 Terminal
+After=graphical-session.target
+
+[Service]
+Type=simple
+# User service: start from an existing graphical session with its display environment.
+# Provision /etc/orange-pi-terminal/product.json and environment before enabling.
+EnvironmentFile=-/etc/orange-pi-terminal/environment
+ExecStart=/usr/bin/orange_pi_terminal --config /etc/orange-pi-terminal/product.json
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target

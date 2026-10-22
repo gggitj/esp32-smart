@@ -1,0 +1,49 @@
+{
+  "family": "Roboto",
+  "repository": "https://github.com/googlefonts/roboto-2",
+  "license": "Apache-2.0",
+  "converter": "lv_font_conv@1.5.3",
+  "bpp": 4,
+  "subpixel": false,
+  "sizes": [
+    12,
+    14,
+    24,
+    36
+  ],
+  "note": "Source URLs reference main; require the recorded SHA256 when regenerating. API revision discovery was rate-limited.",
+  "sources": [
+    {
+      "file": "Roboto-Regular.ttf",
+      "source_url": "https://raw.githubusercontent.com/googlefonts/roboto-2/main/src/hinted/Roboto-Regular.ttf",
+      "sha256": "56a45233d29f11b4dfb86d248e921939d115778f87325e7ae8cc108383d6664d"
+    },
+    {
+      "file": "Roboto-Medium.ttf",
+      "source_url": "https://raw.githubusercontent.com/googlefonts/roboto-2/main/src/hinted/Roboto-Medium.ttf",
+      "sha256": "2879a5ecb7fbfa13a7fc3e2cdd7fecbf73aa45e91b541dfdfa2c442eed0aac21"
+    },
+    {
+      "file": "LICENSE",
+      "source_url": "https://raw.githubusercontent.com/googlefonts/roboto-2/main/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ],
+  "chinese": {
+    "family": "Noto Sans CJK SC Regular",
+    "version": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+    "source": "https://github.com/notofonts/noto-cjk",
+    "local_package": "fonts-noto-cjk",
+    "ttc_face_index": 2,
+    "ttc_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+    "glyphs": "传低供偏光免力压品器境外大射度弱强待意感按据散数整无晒暂暗暴检植气求池注测温湿照物环电监种空等线补请调较避部需",
+    "sizes": [
+      12,
+      14
+    ],
+    "license": "SIL-OFL-1.1",
+    "converter": "lv_font_conv@1.5.3",
+    "bpp": 4,
+    "punctuation": "，"
+  }
+}

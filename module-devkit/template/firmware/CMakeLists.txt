@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+if(NOT DEFINED ENV{MODULE_SDK_DIR})
+    message(FATAL_ERROR "MODULE_SDK_DIR must point to the standalone SDK directory")
+endif()
+set(EXTRA_COMPONENT_DIRS "$ENV{MODULE_SDK_DIR}/esp32/components")
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(module_firmware)

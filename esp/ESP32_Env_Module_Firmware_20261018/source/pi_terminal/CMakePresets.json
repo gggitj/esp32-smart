@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "configurePresets": [{
+    "name": "desktop-debug", "displayName": "Desktop Qt 6 Debug",
+    "generator": "Ninja", "binaryDir": "${sourceDir}/build-preset",
+    "cacheVariables": {
+      "CMAKE_BUILD_TYPE": "Debug", "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+      "CMAKE_PREFIX_PATH": "$env{HOME}/.local/share/orange-pi-terminal-sdk/qt/6.5.3/gcc_64",
+      "Python3_EXECUTABLE": "$env{HOME}/.local/share/orange-pi-terminal-sdk/tools/bin/python3",
+      "CMAKE_INSTALL_PREFIX": "$env{HOME}/.local/orange-pi-terminal"
+    }
+  }],
+  "buildPresets": [{"name":"desktop-debug", "configurePreset":"desktop-debug", "jobs":2}],
+  "testPresets": [{"name":"desktop-debug", "configurePreset":"desktop-debug", "output":{"outputOnFailure":true}}]
+}

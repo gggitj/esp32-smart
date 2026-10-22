@@ -1,0 +1,134 @@
+{
+  "apps": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/navigation/apps/materialiconsround/24px.svg",
+    "sha256": "c739a8e48aa4afc16cf70363c65392d7584094b5b2de9e6de4e47cd710309325"
+  },
+  "language": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/action/language/materialiconsround/24px.svg",
+    "sha256": "41ea8791f31e264e4f06fcc0b24f92c8284707f9e0612b44690350e625536706"
+  },
+  "folder": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/file/folder/materialiconsround/24px.svg",
+    "sha256": "c5b78ff2b10a4c79e291288dc8bac422904c23fa7dafa76e58f74de2bb22350c"
+  },
+  "settings": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/action/settings/materialiconsround/24px.svg",
+    "sha256": "eb96a784975ee5908f123ee3cefc9707f7f1b150c764fda77aaa6a2e144034ce"
+  },
+  "extension": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/action/extension/materialiconsround/24px.svg",
+    "sha256": "4150f6a66610ec06a8841b7164379b1fe17161db5944a0a411d0bcfbebec62eb"
+  },
+  "close": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/navigation/close/materialiconsround/24px.svg",
+    "sha256": "6fb01baa102914c6905e73f1adcd78a4409a0d8ea7873d6c23a573707231a837"
+  },
+  "arrow_back": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/navigation/arrow_back/materialiconsround/24px.svg",
+    "sha256": "7a1e043518c090ca955c282d46416d69e2988c38bcc780a714174dfc4f258a51"
+  },
+  "chevron_left": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/navigation/chevron_left/materialiconsround/24px.svg",
+    "sha256": "7664d26bc9ec3adab542ee887af209563369766d2157dbeb3976302813f29262"
+  },
+  "chevron_right": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/navigation/chevron_right/materialiconsround/24px.svg",
+    "sha256": "31566379a525b62ef3ed698428fdf7cd061426af43d132274b056c337b26b3f7"
+  },
+  "notifications": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/social/notifications/materialiconsround/24px.svg",
+    "sha256": "bb6532a6f92e2d811f8fad3ee25eaa92a0db7824b2028713fd63365b965deb1c"
+  },
+  "wifi": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/notification/wifi/materialiconsround/24px.svg",
+    "sha256": "fcc5f8a263e59c72430f85bac4386164b4fe932047b6e2a6e1efa1db8c349586"
+  },
+  "wifi_off": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/notification/wifi_off/materialiconsround/24px.svg",
+    "sha256": "bb56a4cd1001b397a59e27ed6655e348151451f1c62fff6890e4b128389e4600"
+  },
+  "lan": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/device/lan/materialiconsround/24px.svg",
+    "sha256": "21b6a9d74a2fb659cc5a48c0953e0242c42f070428f743741a51d7e1b242e05b"
+  },
+  "bluetooth": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/device/bluetooth/materialiconsround/24px.svg",
+    "sha256": "e5b303956d1a0f5a285a96590e548eb963fcf4a38a5679b37e6868fb5636d6f5"
+  },
+  "bluetooth_disabled": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/device/bluetooth_disabled/materialiconsround/24px.svg",
+    "sha256": "9fdb67e09e118f082b0f40621f0a7b4819c318dcd514f9bcd6f8176d8cbee94c"
+  },
+  "battery_full": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/device/battery_full/materialiconsround/24px.svg",
+    "sha256": "40eddca5e8f0cfece65d847ac0fcfc28fa51d6ba795a6bff83b98ff556bc274d"
+  },
+  "battery_unknown": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/device/battery_unknown/materialiconsround/24px.svg",
+    "sha256": "3ffb646561737432f670081a106b0b02a3dc4f5571b06c5ef774e9299d1385c7"
+  },
+  "power": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/notification/power/materialiconsround/24px.svg",
+    "sha256": "8bd42c2bca5d2640224758bc89c5ceed7cf549b947f978745122e3b878b6589a"
+  },
+  "tune": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/image/tune/materialiconsround/24px.svg",
+    "sha256": "6c873f4fac7c21bb2d8bb7065c19fa9edabb683ca7647f0defee6994361cf4dd"
+  },
+  "volume_up": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/av/volume_up/materialiconsround/24px.svg",
+    "sha256": "0f6524fec9a2ddd04de1094082656779754df3e906691d2f9e4346835048d8f7"
+  },
+  "volume_off": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/av/volume_off/materialiconsround/24px.svg",
+    "sha256": "02df0aca3f04993a1d80bc09aae704b035a093915f625cbc36b98241ecbbdaf1"
+  },
+  "memory": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/hardware/memory/materialiconsround/24px.svg",
+    "sha256": "964d4c766c5850c9852477068a8447cee6597f556ae64e67bdc6c7e57ba632f0"
+  },
+  "storage": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/device/storage/materialiconsround/24px.svg",
+    "sha256": "f4aa0c4e7a7f4857637d079c203d6b44c181bca0144b7326c317351be5760251"
+  },
+  "refresh": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/navigation/refresh/materialiconsround/24px.svg",
+    "sha256": "118b034b171f4dfd6a494e7a621433e0f9d41bea5af4d26ab2aef61a0ec91f7a"
+  },
+  "check": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/navigation/check/materialiconsround/24px.svg",
+    "sha256": "cf161a591c0e58fc7248ef0b74c08c53abb8805f519f4023658a4811b397b250"
+  },
+  "battery_0_bar": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/device/battery_0_bar/materialiconsround/24px.svg",
+    "sha256": "17d2be0451b7df0f124ea7e515e03ce5be31dab4fb73dd7ecf81259dce73df72"
+  },
+  "battery_1_bar": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/device/battery_1_bar/materialiconsround/24px.svg",
+    "sha256": "a179ad9648b33de4fa3bd4cfca8fe7b887db51eb4300882120f680956f7cc43d"
+  },
+  "battery_2_bar": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/device/battery_2_bar/materialiconsround/24px.svg",
+    "sha256": "0387f5444ac58da0e85bbeb10b96c60caa94127cacc1791aae2ae7af469be9ea"
+  },
+  "battery_3_bar": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/device/battery_3_bar/materialiconsround/24px.svg",
+    "sha256": "0cc92816f6c4a35e8ca67e6e972bc5eb3e580ae52ef4c220255ef1b429cad42c"
+  },
+  "battery_4_bar": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/device/battery_4_bar/materialiconsround/24px.svg",
+    "sha256": "665bcdb66c7a148b4739719843fc2c514424a347933bbfcfa63b366dc99a1a79"
+  },
+  "battery_5_bar": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/device/battery_5_bar/materialiconsround/24px.svg",
+    "sha256": "bc7c29405ef200fd3bdbb4b91ba364a78c5176ef7c0bed143cad61859096446a"
+  },
+  "battery_6_bar": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/device/battery_6_bar/materialiconsround/24px.svg",
+    "sha256": "7e989ebd56087b253a9e13181ea9bbb53aa4bb3d33e32da8268e6db7acd9bce3"
+  },
+  "battery_charging_full": {
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/device/battery_charging_full/materialiconsround/24px.svg",
+    "sha256": "b39074ed3e5fceb8e98eef1f9eacacc48aaa05c35b1fa09849a67f809e6c7251"
+  }
+}
