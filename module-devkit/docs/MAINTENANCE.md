@@ -7,7 +7,7 @@
 - SDK示例的固件：`module-devkit/examples/smart-planter/firmware/`，是正式源码的独立导出副本。
 - 主机插件、QML及其业务测试：只在SDK示例维护，不放进ESP执行代码。
 - SDK通用模板、CLI、AI引导属于SDK本身，不覆盖到正式ESP工程。
-- 用户提供的 `esp/ESP32_Env_Module_Firmware_20261018/` 保留为历史参考，不是当前维护入口。
+- 用户提供的 2026-10-18 历史交接快照已移至 `archive/20261018-env-module-handover/`,仅作历史参考,不是当前维护入口。
 
 为满足外部开发者拿不到主仓库的条件，SDK不能通过符号链接或相对主仓库路径引用正式固件；部分源文件必须随包提供。它们是有清单的导出副本，不是两个并行维护分支。
 
@@ -21,6 +21,8 @@ python3 tools/sync_module_devkit.py --write
 ```
 
 工具使用明确映射，校验每个源文件和副本SHA256，清单位于 `sdk/SOURCE-MANIFEST.json`。
+
+`sdk/include/pi_module_api.h` 与 SDK 自带工具 `tools/package_tool.py`、`tools/mock_module.py` 的源头在树莓派侧终端服务工程(`pi_terminal`),不在本仓库;它们直接在 SDK 内维护,不参与同步映射,因此不在 `SOURCE-MANIFEST.json` 清单中。
 
 - `--check` 只读。
 - `--write` 只更新尚未被手工修改的已登记副本，或新增缺失文件。

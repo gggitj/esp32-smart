@@ -29,9 +29,9 @@ def mappings():
     for name in ("main/main.c", "main/Kconfig.projbuild", "partitions.csv"):
         pairs.append((ROOT / "esp/S3_Pi_Module" / name,
                       KIT / "examples/smart-planter/firmware" / name))
-    pairs.append((ROOT / "pi_terminal/src/modules/api/pi_module_api.h", KIT / "sdk/include/pi_module_api.h"))
-    for name in ("package_tool.py", "mock_module.py"):
-        pairs.append((ROOT / "pi_terminal/tools" / name, KIT / "tools" / name))
+    # sdk/include/pi_module_api.h and kit tools package_tool.py / mock_module.py
+    # originate from the Raspberry-Pi-side terminal service tree (pi_terminal),
+    # which is not part of this repository; they are maintained there directly.
     return pairs
 
 
