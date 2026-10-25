@@ -5,7 +5,7 @@
 | 目录 | 职责 |
 | --- | --- |
 | `S3_Pi_Module/` | 当前智能盆栽环境模块：传感器、LCD、供电保护策略、LinkIt、认证 BLE/LAN、插件包嵌入 |
-| `S3_PiBridge_LinkIt_Host/` | 既定控制桥固件，本次未修改 |
+| `S3_PiBridge_LinkIt_Host/` | 控制桥固件；2026-10 加入 RC522 NFC 读 UID（PBR1 `rfid_card` 事件），已实机烧录验证，详见该目录 README |
 | `shared/module_data_service/` | TCP/BLE 会话及插件包传输 |
 | `shared/pi_sensor_device/` | BME280、BH1750、MAX17043（含采样时间和有效标记） |
 | `shared/lvgl/` | LVGL 8.4.0 运行时子集，保留原许可证 |

@@ -11,9 +11,12 @@
 #include "nvs_flash.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "freertos/semphr.h"
 
 #include "linkit.h"
 #include "linkit_pins.h"
+#include "bridge_pins.h"
+#include "rfid_service.h"
 
 #define LINKIT_TASK_STACK_BYTES 8192U
 #define LINKIT_TASK_PRIORITY    8U
@@ -27,14 +30,15 @@
 #define PBRIDGE_UART            UART_NUM_0
 #define PBRIDGE_BAUD            115200
 #define PBRIDGE_ANNOUNCE_MS      3000U
-#define PBRIDGE_TX_GPIO         43
-#define PBRIDGE_RX_GPIO         44
+#define PBRIDGE_TX_GPIO         BRIDGE_UART_TX_GPIO
+#define PBRIDGE_RX_GPIO         BRIDGE_UART_RX_GPIO
 #define PBRIDGE_MODULE_ID       CONFIG_PBRIDGE_MODULE_ID
 #define PBRIDGE_INSTANCE        CONFIG_PBRIDGE_INSTANCE
 #define PBRIDGE_MAX_PAYLOAD     2048U
 
 static const char *TAG = "POGO_HOST";
 static uint32_t s_pbr_sequence = 1;
+static SemaphoreHandle_t s_pbr_tx_mutex;
 static uint8_t s_control_rx[14 + PBRIDGE_MAX_PAYLOAD];
 static size_t s_control_rx_length;
 static int64_t s_control_partial_since;
@@ -72,22 +76,30 @@ static void pbr_put_le32(uint8_t *out, uint32_t value)
 
 static bool pbr_send_frame(uint8_t kind, const char *json)
 {
-    if (!json || !s_pbr_sequence) return false;
+    if (!json || !s_pbr_tx_mutex) return false;
     const size_t length = strlen(json);
     if (length > PBRIDGE_MAX_PAYLOAD) return false;
+    /* Lock sequence allocation AND the complete UART write across both tasks. */
+    if (xSemaphoreTake(s_pbr_tx_mutex, pdMS_TO_TICKS(100)) != pdTRUE) return false;
     uint8_t frame[14 + PBRIDGE_MAX_PAYLOAD];
     memcpy(frame, "PBR1", 4); frame[4] = 1; frame[5] = kind;
     pbr_put_le32(frame + 6, s_pbr_sequence++);
+    if (!s_pbr_sequence) s_pbr_sequence = 1;
     pbr_put_le16(frame + 10, (uint16_t)length);
     memcpy(frame + 12, json, length);
     pbr_put_le16(frame + 12 + length, pbr_crc16(frame + 4, 8 + length));
     size_t sent = 0;
     while (sent < 14 + length) {
         const int written = uart_write_bytes(PBRIDGE_UART, frame + sent, 14 + length - sent);
-        if (written <= 0) return false;
+        if (written <= 0) {
+            xSemaphoreGive(s_pbr_tx_mutex);
+            return false;
+        }
         sent += (size_t)written;
     }
-    return uart_wait_tx_done(PBRIDGE_UART, pdMS_TO_TICKS(100)) == ESP_OK;
+    /* uart_write_bytes copies into the driver ring; FIFO order is preserved. */
+    xSemaphoreGive(s_pbr_tx_mutex);
+    return true;
 }
 
 static bool pbr_send_link_event(bool attached, uint8_t module_id)
@@ -138,11 +150,17 @@ static void pbr_handle_command(const uint8_t *payload, size_t length, uint32_t s
                       (cJSON_IsNumber(command) && command->valuedouble == 1);
     const bool status = cJSON_IsString(command) && !strcmp(command->valuestring, "status");
     if (ping || status) {
-        char reply[192];
+        char reply[512];
+        const rfid_status_t rfid = rfid_service_status();
         snprintf(reply, sizeof(reply),
-                 "{\"event\":\"%s\",\"request_sequence\":%lu,\"attached\":%s,\"module_id\":%u}",
+                 "{\"event\":\"%s\",\"request_sequence\":%lu,\"attached\":%s,\"module_id\":%u,"
+                 "\"rfid\":{\"enabled\":%s,\"online\":%s,\"version\":%u,\"reports\":%lu,"
+                 "\"read_errors\":%lu,\"tx_failures\":%lu,\"last_error\":%d}}",
                  ping ? "pong" : "bridge_status", (unsigned long)sequence,
-                 s_contact_attached ? "true" : "false", PBRIDGE_MODULE_ID);
+                 s_contact_attached ? "true" : "false", PBRIDGE_MODULE_ID,
+                 rfid.enabled ? "true" : "false", rfid.online ? "true" : "false",
+                 rfid.version, (unsigned long)rfid.reports, (unsigned long)rfid.read_errors,
+                 (unsigned long)rfid.tx_failures, (int)rfid.last_error);
         (void)pbr_send_frame(1, reply);
     } else {
         // Do not silently accept business commands or firmware/network writes.
@@ -202,6 +220,8 @@ static void pbr_poll_control(void)
 
 static void pbr_init(void)
 {
+    s_pbr_tx_mutex = xSemaphoreCreateMutex();
+    if (!s_pbr_tx_mutex) abort();
     const uart_config_t config = {
         .baud_rate = PBRIDGE_BAUD,
         .data_bits = UART_DATA_8_BITS,
@@ -405,4 +425,6 @@ void app_main(void)
 
     ESP_LOGI(TAG, "pogo host ready: TX=GPIO%d RX=GPIO%d DET=GPIO%d",
              POGO_PIN_TX, POGO_PIN_RX, POGO_PIN_DET);
+    /* Reader absence is recoverable and must never stop the LinkIt service. */
+    ESP_ERROR_CHECK_WITHOUT_ABORT(rfid_service_start(pbr_send_frame));
 }

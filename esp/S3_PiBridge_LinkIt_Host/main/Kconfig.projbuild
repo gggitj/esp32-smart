@@ -7,3 +7,35 @@ config PBRIDGE_INSTANCE
     string "Provisioned module instance (letters, digits, underscore or hyphen)"
     default "pogo-device-test"
 endmenu
+
+menu "Bridge RC522 reader"
+config BRIDGE_RFID_ENABLED
+    bool "Enable RC522 ISO14443A UID reader"
+    default y
+config BRIDGE_RFID_SS_GPIO
+    int "RC522 SDA/SS GPIO (SPI chip select)"
+    default 10
+config BRIDGE_RFID_SCK_GPIO
+    int "RC522 SCK GPIO"
+    default 12
+config BRIDGE_RFID_MOSI_GPIO
+    int "RC522 MOSI GPIO"
+    default 11
+config BRIDGE_RFID_MISO_GPIO
+    int "RC522 MISO GPIO"
+    default 13
+config BRIDGE_RFID_RST_GPIO
+    int "RC522 RST GPIO"
+    default 14
+config BRIDGE_RFID_READER_ID
+    string "Reader ID in RFID events"
+    default "front-reader"
+config BRIDGE_RFID_POLL_MS
+    int "Delay between card polls (ms)"
+    range 50 1000
+    default 100
+config BRIDGE_RFID_REMOVAL_MS
+    int "Continuous no-card time before rearming (ms)"
+    range 200 5000
+    default 400
+endmenu

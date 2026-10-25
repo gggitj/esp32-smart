@@ -1,0 +1,10 @@
+/build/
+/build-*/
+/sdkconfig
+/sdkconfig.old
+/managed_components/
+/artifacts/
+/verification/
+/tests/.build/
+/.pytest_cache/
+__pycache__/
